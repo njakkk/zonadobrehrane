@@ -1,0 +1,88 @@
+---
+layout: "main"
+---
+
+
+<section section class="home-section">
+    <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"/>
+
+    <img src="<%= @site.url %>/images/s01-e03.png" alt="" class="absolute"
+         data-0="left:20%; bottom: -200px;"
+         data-600="left:20%; bottom: 100px;"
+            />
+
+    <img src="<%= @site.url %>/images/s01-e04.png" alt="" class="absolute"
+         data-0="right:40%; bottom: -150px;"
+         data-600="right:40%; bottom: 300px;"
+            />
+
+    <div class="content-wrapper relative">
+        <img src="<%= @site.url %>/images/s01-e01.png" alt="" class="absolute"
+             data-0="left:-200px; top: 20%;"
+             data-600="left:-200px; top: -5%;"
+                />
+
+        <img src="<%= @site.url %>/images/s01-e02.png" alt="" class="absolute"
+             data-0="left:-200px; bottom: 20%;"
+             data-600="left:-200px; bottom: 80%;"
+                />
+
+        <div class="row">
+            <div class="column-2 big-padding vh">
+                <div class="vertical-center">
+                    <img class="home-logo" src="<%= @site.url %>/images/logo.svg" alt=""/>
+                    <h1 class="spaced-caption">Dobro došli u zonu dobre hrane!</h1>
+                    <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!---------------------------------->
+
+<section section class="menu-section">
+
+    <img src="<%= @site.url %>/images/s02-e01.png" alt="" class="absolute"
+         data-1100="right:20%; top: 20%;"
+         data-2500="right:20%; top: -5%;"
+            />
+
+    <img src="<%= @site.url %>/images/s02-e02.png" alt="" class="absolute"
+         data-1100="left:30%; bottom: -400px;"
+         data-2500="left:30%; bottom: 0px"
+            />
+
+    <img src="<%= @site.url %>/images/s02-e03.png" alt="" class="absolute"
+         data-1100="right:5%; bottom: -400px;"
+         data-2500="right:5%; bottom: 800px;"
+            />
+
+    <div class="content-wrapper">
+         <div class="row">
+             <div class="column-4 vh"><h2 class="vertical-center">Piletina</h2></div>
+             <div class="column-4 vh"><h2 class="vertical-center">Pizza</h2></div>
+             <div class="column-4 vh"><h2 class="vertical-center">Palačinke</h2></div>
+             <div class="column-4 vh"><h2 class="vertical-center">Sendviči</h2></div>
+         </div>
+    </div>
+</section>
+
+<!---------------------------------->
+
+<section section class="delivery-section">
+    <img src="<%= @site.url %>/images/section_03.png" alt="" class="delivery-img"/>
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="column-2 vh"></div>
+            <div class="column-2 big-padding vh">
+                <div class="vertical-center">
+                    <h1 class="spaced-caption">Stižemo do tebe pre nego što ogladniš</h1>
+                    <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

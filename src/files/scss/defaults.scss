@@ -1,0 +1,84 @@
+@import 'variables';
+
+p{
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  opacity: 0.5;
+}
+b{
+  font-weight: 800;
+}
+
+.link{
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.strong-font{
+  font-family: $strong;
+}
+
+.big-padding{
+  padding: $spacing*2 $spacing*4;
+}
+
+.vertical-center{
+  position: relative;
+  top: $vh/2;
+}
+
+.vh{
+  min-height: $vh;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.spaced-caption{
+  font-size: 5.5vmin;
+  font-family: $thin;
+  letter-spacing: 0.4em;
+  line-height: 1.3em;
+}
+
+
+space{
+  display: block;
+  height: 20vh;
+}
+
+small-space{
+  display: block;
+  height: 10vh;
+}
+
+tiny-space{
+  display: block;
+  height: 5vh;
+}
+
+.pattern{
+  position: relative;
+    &:before{
+      @include noiz;
+    }
+}
+
+[data-display=""], [data-display="false"]{
+  display: none !important;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+@media screen and (max-width: 1200px){
+
+}

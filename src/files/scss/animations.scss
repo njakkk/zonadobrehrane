@@ -1,0 +1,74 @@
+@import 'variables';
+
+
+@keyframes backgroundGrow {
+  from {
+  transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.15);
+  }
+}
+
+//______________________________________________________________________________________
+
+
+@keyframes backgroundSlide {
+  0%,100% {
+    transform: translate(-15px, 0);
+  }
+
+  50% {
+    transform: translate(15px, 0);
+  }
+
+}
+
+//______________________________________________________________________________________
+
+
+@keyframes scaleMenu {
+  0% {@include scale(0, 1);}
+  80% {@include scale(1.2, 1);}
+  100% {@include scale(1, 1);}
+}
+
+//______________________________________________________________________________________
+
+
+@keyframes loaderAnimation {
+  0%, 100%{
+    transform: rotate(45deg) scale(1,1);
+    -webkit-transform: rotate(45deg) scale(1,1);
+  }
+
+  50% {
+    transform: rotate(45deg) scale(1,0);
+    -webkit-transform: rotate(45deg) scale(1,0);
+  }
+}
+
+
+//______________________________________________________________________________________
+
+
+@keyframes rightIconAnimation {
+  0%, 100%{
+    @include translate(0, 0);
+  }
+
+  50% {
+    @include translate(6px, 0);
+  }
+}
+
+@keyframes leftIconAnimation {
+  0%, 100%{
+    @include translate(0, 0);
+  }
+
+  50% {
+    @include translate(-6px, 0);
+  }
+}

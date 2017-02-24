@@ -1,0 +1,7 @@
+</div><!--wrapper end-->
+
+<!--Scripts-->
+<script src="<%= @site.url %>/js/app-bundle.min.js"></script>
+
+</body>
+</html>
