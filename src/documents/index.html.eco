@@ -2,8 +2,16 @@
 layout: "main"
 ---
 
+<section class="main-menu">
+    <ul>
+        <li data-scroll-trigger="01"><a href="#">1</a></li>
+        <li data-scroll-trigger="02"><a href="#">2</a></li>
+        <li data-scroll-trigger="03"><a href="#">3</a></li>
+    </ul>
+</section>
 
-<section section class="home-section">
+
+<section section class="home-section" data-scroll-target="01">
     <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"/>
 
     <img src="<%= @site.url %>/images/s01-e03.png" alt="" class="absolute"
@@ -28,10 +36,11 @@ layout: "main"
                 />
 
         <div class="row">
-            <div class="column-2 big-padding vh">
+            <div class="column-2 big-padding-x vh">
                 <div class="vertical-center">
                     <img class="home-logo" src="<%= @site.url %>/images/logo.svg" alt=""/>
                     <h1 class="spaced-caption">Dobro došli u zonu dobre hrane!</h1>
+                    <div class="spacer"><span></span></div>
                     <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
                 </div>
             </div>
@@ -42,7 +51,7 @@ layout: "main"
 
 <!---------------------------------->
 
-<section section class="menu-section">
+<section section class="menu-section" data-scroll-target="02">
 
     <img src="<%= @site.url %>/images/s02-e01.png" alt="" class="absolute"
          data-1100="right:20%; top: 20%;"
@@ -59,26 +68,33 @@ layout: "main"
          data-2500="right:5%; bottom: 800px;"
             />
 
-    <div class="content-wrapper">
-         <div class="row">
-             <div class="column-4 vh"><h2 class="vertical-center">Piletina</h2></div>
-             <div class="column-4 vh"><h2 class="vertical-center">Pizza</h2></div>
-             <div class="column-4 vh"><h2 class="vertical-center">Palačinke</h2></div>
-             <div class="column-4 vh"><h2 class="vertical-center">Sendviči</h2></div>
+    <div class="content-wrapper vh">
+         <div class="row vertical-center">
+             <div class="big-padding-y">
+                 <h1 class="title">meni</h1>
+                 <div class="spacer tc"><span></span></div>
+             </div>
+             <div class="big-padding-y clearfix">
+                 <div class="column-4"><h2 class="tc">Piletina</h2></div>
+                 <div class="column-4"><h2 class="tc">Pizza</h2></div>
+                 <div class="column-4"><h2 class="tc">Palačinke</h2></div>
+                 <div class="column-4"><h2 class="tc">Sendviči</h2></div>
+             </div>
          </div>
     </div>
 </section>
 
 <!---------------------------------->
 
-<section section class="delivery-section">
+<section section class="delivery-section" data-scroll-target="03">
     <img src="<%= @site.url %>/images/section_03.png" alt="" class="delivery-img"/>
     <div class="content-wrapper">
         <div class="row">
             <div class="column-2 vh"></div>
-            <div class="column-2 big-padding vh">
+            <div class="column-2 big-padding-x vh">
                 <div class="vertical-center">
                     <h1 class="spaced-caption">Stižemo do tebe pre nego što ogladniš</h1>
+                    <div class="spacer"><span></span></div>
                     <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
                 </div>
             </div>

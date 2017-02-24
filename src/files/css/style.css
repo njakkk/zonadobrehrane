@@ -2804,7 +2804,8 @@ body {
   line-height: 1.5em;
   position: relative;
   margin: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  height: auto !important; }
 
 .site-wrapper {
   width: 100%;
@@ -2817,8 +2818,10 @@ body {
   display: block; }
 
 [section] {
-  min-height: 100vh;
-  position: relative; }
+  height: 100vh;
+  position: relative;
+  display: inline-block;
+  width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
@@ -2852,7 +2855,7 @@ h4 {
 
 /****************************************/
 [site-loader] {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -2990,6 +2993,16 @@ p {
 b {
   font-weight: 800; }
 
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .clearfix:after {
+    clear: both; }
+
 .link {
   text-decoration: underline; }
 
@@ -3000,7 +3013,15 @@ b {
   font-family: "evelethclean_regular", sans-serif; }
 
 .big-padding {
-  padding: 4.4vmin 8.8vmin; }
+  padding: 8.8vmin; }
+
+.big-padding-x {
+  padding-left: 8.8vmin;
+  padding-right: 8.8vmin; }
+
+.big-padding-y {
+  padding-top: 8.8vmin;
+  padding-bottom: 8.8vmin; }
 
 .vertical-center {
   position: relative;
@@ -3020,6 +3041,37 @@ b {
   font-family: "evelethclean_thin", sans-serif;
   letter-spacing: 0.4em;
   line-height: 1.3em; }
+
+.title {
+  text-align: center;
+  font-size: 2.5vmin;
+  font-family: "evelethclean_thin", sans-serif;
+  letter-spacing: 0.4em;
+  line-height: 1.3em; }
+
+.spacer {
+  display: block;
+  height: 1px;
+  background: transparent;
+  border: none;
+  position: relative;
+  margin: 2.2vmin 0; }
+  .spacer span {
+    width: 150px;
+    display: block;
+    height: 1px;
+    background: #ffe158; }
+  .spacer.tc span {
+    margin: auto; }
+
+.tc {
+  text-align: center; }
+
+.tl {
+  text-align: left; }
+
+.tr {
+  text-align: right; }
 
 space {
   display: block;
@@ -3699,13 +3751,14 @@ tiny-space {
     transform: translateY(100%) skewY(20deg); } }
 
 img.home-logo {
-  max-width: 200px; }
+  max-width: 200px;
+  margin-top: -100px; }
 
 .home-img {
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 100%;
+  max-width: 80%;
   height: auto; }
 
 .delivery-img {
@@ -3714,3 +3767,13 @@ img.home-logo {
   left: 0;
   max-width: 100%;
   height: auto; }
+
+.main-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2; }
+  .main-menu li {
+    opacity: 0.5; }
+    .main-menu li.active {
+      opacity: 1; }

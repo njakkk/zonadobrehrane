@@ -5,21 +5,9 @@ docpadConfig = {
     'errors'
     'documents']
 
-  collections:
-    featuredProjects: ->
-      @getCollection("html").findAllLive({relativeOutDirPath: 'projects', isFeatured: true, isProject: true, isPublished: true}, [
-        order: 1
-      ])
-
-    projects: ->
-      @getCollection("html").findAllLive({relativeOutDirPath: 'projects', isProject: true, isPublished: true}, [
-        order: 1
-        year: -1
-      ])
-
   templateData:
     site:
-      url: "http://www.allthingstalk.com"
+      url: "http://www.zonadobrehrane.com"
 
   environments:
     development:
@@ -30,11 +18,11 @@ docpadConfig = {
     production:
       templateData:
         site:
-          url: "http://www.ameba.rs"
+          url: "http://www.zonadobrehrane.com"
     staging:
       templateData:
         site:
-          url: "http://dev.ameba.rs/ameba"
+          url: "http://dev.ameba.rs/zdh"
 
   events:
     serverExtend: (opts) ->

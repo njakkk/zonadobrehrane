@@ -51,4 +51,8 @@
 
 <body>
 <div class="site-wrapper">
+
+    <div site-loader>
+        <img src="<%= @site.url %>/images/logo.svg" alt=""/>
+    </div>
 <div class="site-noiz"></div>
