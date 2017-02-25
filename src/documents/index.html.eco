@@ -13,7 +13,10 @@ layout: "main"
     <%- @partial('sections/section-05') %>
 </section>
 
-<%- @partial('meni-modal') %>
+<%- @partial('modals/meni-modal-01') %>
+<%- @partial('modals/meni-modal-02') %>
+<%- @partial('modals/meni-modal-03') %>
+<%- @partial('modals/meni-modal-04') %>
 
 
 

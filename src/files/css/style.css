@@ -2009,7 +2009,21 @@ img.home-logo {
 .meni-item:hover .pict i {
   color: #ffe158; }
 
+.meni-modal-title {
+  display: block;
+  float: left;
+  width: 40%;
+  padding: 4.4vmin;
+  text-align: center; }
+  .meni-modal-title h1 {
+    font-family: "evelethclean_thin", sans-serif;
+    font-size: 6vmin;
+    letter-spacing: 0.3em; }
+
 .meni-modal-txt {
+  display: block;
+  float: left;
+  width: 60%;
   padding: 4.4vmin;
   max-height: 90vh;
   min-height: 50vh;
