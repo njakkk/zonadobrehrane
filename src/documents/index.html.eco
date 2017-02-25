@@ -13,4 +13,7 @@ layout: "main"
     <%- @partial('sections/section-05') %>
 </section>
 
+<%- @partial('meni-modal') %>
+
+
 

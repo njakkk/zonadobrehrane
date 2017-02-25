@@ -80,6 +80,29 @@ function identifySections() {
     });
 }
 
+function defaultInlinePopup(){
+
+    $('[data-inline-popup]').magnificPopup({
+        type:'inline',
+        midClick: true,
+        mainClass: 'mfp-fade',
+        removalDelay: 300,
+        callbacks: {
+            open: function() {
+                $('body').addClass('popup-open');
+            },
+            close: function() {
+                $('body').removeClass('popup-open');
+            }
+        }
+    });
+
+    $('[data-close-popup]').click( function(e){
+        e.preventDefault();
+        $.magnificPopup.close();
+    });
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -106,6 +129,7 @@ $(document).ready( function() {
 
     scrollTrigger();
     identifySections();
+    defaultInlinePopup();
 
     $('.bg').bgImage();
     $('.vertical-center').verticalCenter();
@@ -114,7 +138,6 @@ $(document).ready( function() {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $(window).on( 'resize', function() {
-    $('.vertical-center').verticalCenter();
 });
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

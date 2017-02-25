@@ -25,9 +25,13 @@ body {
   line-height: 1.5em;
   position: relative;
   margin: 0;
+
+  height: 100% !important;
   overflow: hidden;
-  height: auto !important;
+  overflow-y: auto;
 }
+
+
 
 .site-wrapper{
   width: 100%;
@@ -38,11 +42,11 @@ body {
 .content-wrapper {
   max-width: 80%;
   margin: auto;
-  display: block;
+  display: inherit;
 }
 
 [section]{
-  height: $vh;
+  min-height: $vh;
   position: relative;
   display: table;
   width: 100%;
@@ -143,14 +147,27 @@ h4 { font-size: 100%; font-weight: 600; text-transform: uppercase; margin-bottom
   color: $dark;
 }
 
+.parallax-layer{
+  pointer-events: none;
+}
+
+
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: $tabLandscape){
+
+  .parallax-layer{
+    display: none;
+  }
 
   .scroll-show {
     transform: none !important;
     opacity: 1;
+  }
+
+  [section]{
+    min-height: auto;
   }
 }
 

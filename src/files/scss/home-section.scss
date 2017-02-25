@@ -1,13 +1,11 @@
 @import 'variables';
 
 img.home-logo {
-  width: 20vmin;
-  max-width: 200px;
+  height: 20vmin;
+  max-height: 200px;
+  min-height: 100px;
   margin-top: -10vmin;
-}
-
-.home-section{
-
+  width: auto;
 }
 
 .home-img{
@@ -24,4 +22,24 @@ img.home-logo {
   left: 0;
   max-width: 100%;
   height: auto;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+@media screen and (max-width: $tabLandscape){
+
+  img.home-logo {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: $tabPortrait){
+
+  .home-img, .delivery-img{
+    opacity: 0.35;
+  }
+
 }

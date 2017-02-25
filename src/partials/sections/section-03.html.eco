@@ -6,7 +6,7 @@
             <div class="column-2 vh"></div>
             <div class="column-2 big-padding-x vh">
 
-                <img src="<%= @site.url %>/images/s02-e03.png" alt="" class="absolute"
+                <img src="<%= @site.url %>/images/s02-e03.png" alt="" class="absolute parallax-layer"
                      data-1100="right:-20px; top: -50px;"
                      data-2500="right:-20px; top: -200px;"
                         />

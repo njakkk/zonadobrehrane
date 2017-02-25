@@ -19,6 +19,7 @@ $box-pdd:         20px; //Defines padding of column with class .column-padding
 [class*="column"] {
   @include grid-margin;
   float: left;
+  min-height: 1px;
   img{
     max-width: 100%;
   }
@@ -83,6 +84,14 @@ $box-pdd:         20px; //Defines padding of column with class .column-padding
 
 @media screen and (max-width: $tabPortrait) {
 
+  .column-2 {
+    width: calc(#{$main-unit} - #{$margin-unit});
+  }
+
+
+  .column-4 {
+    width: calc(#{$main-unit/2} - #{$margin-unit});
+  }
 }
 
 @media screen and (max-width: $smallTab){
@@ -121,9 +130,9 @@ $box-pdd:         20px; //Defines padding of column with class .column-padding
     width: calc(#{$main-unit} - #{$margin-unit});
   }
 
-  .column-4 {
-    width: calc(#{$main-unit} - #{$margin-unit});
-  }
+//  .column-4 {
+//    width: calc(#{$main-unit} - #{$margin-unit});
+//  }
 
   .column-6 {
     width: calc(#{$main-unit} - #{$margin-unit});

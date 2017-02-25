@@ -1,26 +1,21 @@
 <section section class="home-section" data-scroll-target="01">
     <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"/>
 
-    <img src="<%= @site.url %>/images/s01-e03.png" alt="" class="absolute"
+    <img src="<%= @site.url %>/images/s01-e03.png" alt="" class="absolute parallax-layer"
          data-400="left:20%; bottom: -200px;"
          data-800="left:20%; bottom: 100px;"
             />
 
-    <img src="<%= @site.url %>/images/s01-e04.png" alt="" class="absolute"
+    <img src="<%= @site.url %>/images/s01-e04.png" alt="" class="absolute parallax-layer"
          data-0="right:40%; bottom: -150px;"
          data-600="right:40%; bottom: 300px;"
             />
 
     <div class="content-wrapper relative">
-        <!--<img src="<%= @site.url %>/images/s01-e01.png" alt="" class="absolute"-->
-             <!--data-0="left:-200px; top: 20%;"-->
-             <!--data-600="left:-200px; top: -5%;"-->
-                <!--/>-->
-
-        <!--<img src="<%= @site.url %>/images/s01-e02.png" alt="" class="absolute"-->
-             <!--data-0="left:-200px; bottom: 20%;"-->
-             <!--data-600="left:-200px; bottom: 80%;"-->
-                <!--/>-->
+        <img src="<%= @site.url %>/images/s01-e01.png" alt="" class="absolute parallax-layer"
+             data-0="left:-100px; bottom: 350px;"
+             data-600="left:-100px; bottom: 600px;"
+                />
 
         <div class="row">
             <div class="column-2 big-padding-x vh">
@@ -29,6 +24,10 @@
                     <h1 class="spaced-caption">Dobro došli u zonu dobre hrane!</h1>
                     <div class="spacer"><span></span></div>
                     <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+                    <a class="phone" href="tel:+381633558869">
+                        <i class="icon-phone"></i>
+                        <span>063 355 88 69</span>
+                    </a>
                 </div>
             </div>
         </div>

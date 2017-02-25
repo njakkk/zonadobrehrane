@@ -60,7 +60,7 @@ b{
   font-size: 5.5vmin;
   font-family: $thin;
   letter-spacing: 0.4em;
-  line-height: 1.3em;
+  line-height: 1.2em;
 }
 
 .title{
@@ -103,21 +103,6 @@ b{
 .z2{ z-index: 2}
 .z3{ z-index: 3}
 
-space{
-  display: block;
-  height: 20vh;
-}
-
-small-space{
-  display: block;
-  height: 10vh;
-}
-
-tiny-space{
-  display: block;
-  height: 5vh;
-}
-
 .pattern{
   position: relative;
     &:before{
@@ -125,13 +110,69 @@ tiny-space{
     }
 }
 
-[data-display=""], [data-display="false"]{
-  display: none !important;
+.phone{
+  display: block;
+  margin: $spacing 0;
+  font-size: 4vmin;
+  font-family: $thin;
+  i,span{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  i{
+    font-size: 3.6vmin;
+  }
 }
+
+
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: $tabLandscape){
+
+  .vertical-center{
+    top: 0;
+    margin-top: $spacing*4;
+    margin-bottom: $spacing*4;
+  }
+
+  .vh{
+    min-height: 10px;
+  }
+
+}@media screen and (max-width: $tabPortrait){
+
+  .big-padding{
+    padding: 5vmin;
+  }
+
+  .big-padding-x{
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+  }
+
+  .big-padding-y{
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+  }
+
+  .spaced-caption{
+    font-size: 28px;
+    letter-spacing: 0.3em;
+    line-height: 1.2em;
+  }
+
+  .title{
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    line-height: 1.2em;
+  }
+
+  .spacer{
+    span {
+      width: 90px;
+    }
+  }
 
 }

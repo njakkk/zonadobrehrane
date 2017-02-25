@@ -1,0 +1,84 @@
+@import 'variables';
+
+/*---Popup element---*/
+/*-------------------------------------------------*/
+/* overlay at start */
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  background: #000;
+
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.4;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap {
+  opacity: 0;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing {
+  opacity: 0;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+/*-------------------------------------------------*/
+
+.mfp-close-btn-in .mfp-close{
+  color: $white;
+}
+.mfp-wrap{
+  position: fixed !important;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.mfp-container{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  min-width: 250px;
+  max-width: 95%;
+}
+
+.mfp-content{
+  width: 80vw !important;
+  overflow: hidden;
+  background: $dark;
+  padding: 0;
+}
+
+
+/* default popup*/
+
+
+//mobile////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width: $tabLandscape)  {
+
+}
+
+@media screen and (max-width: $tabPortrait)  {
+
+  .mfp-close-btn-in .mfp-close{
+    display: block;
+  }
+
+}

@@ -9,8 +9,12 @@
   .pict{
     position: relative;
     svg{
-      width: 85%;
+      height: auto;
+      width: 23vmin;
+      min-width: 105px;
+      margin: $spacing 0;
       @include basicTransition(0.5s);
+
       path{
         fill:none;
         stroke:$white;
@@ -42,7 +46,6 @@
 .meni-item:hover{
   .pict{
     svg{
-//      @include rotate(45deg);
       path{
         fill:rgba(0,0,0,0.2);
         stroke:$main;
@@ -55,4 +58,43 @@
       color: $main;
     }
   }
+}
+
+//meni midal-------------------------------------------
+
+.meni-modal{
+
+}
+
+.meni-modal-txt{
+  padding: $spacing*2;
+  max-height: 90vh;
+  min-height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.meni-modal-img{
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+@media screen and (max-width: $mobile){
+
+  .meni-item{
+    padding: 0 $spacing;
+    .pict{
+      i{
+        font-size: 55px;
+      }
+    }
+    h2{
+      font-size: .95em;
+    }
+  }
+
 }

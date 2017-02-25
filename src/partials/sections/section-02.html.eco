@@ -1,12 +1,12 @@
 
 <section section class="menu-section" data-scroll-target="02">
 
-    <img src="<%= @site.url %>/images/s02-e01.png" alt="" class="absolute"
+    <img src="<%= @site.url %>/images/s02-e01.png" alt="" class="absolute parallax-layer"
          data-400="right:20%; top: 20%;"
          data-1800="right:20%; top: -20%;"
             />
 
-    <img src="<%= @site.url %>/images/s02-e02.png" alt="" class="absolute"
+    <img src="<%= @site.url %>/images/s02-e02.png" alt="" class="absolute parallax-layer"
          data-1100="left:35%; bottom: -400px;"
          data-2500="left:35%; bottom: 0px"
             />
@@ -21,13 +21,13 @@
                     <div class="spacer tc"><span></span></div>
                 </div>
                 <div class="clearfix meni tc">
-                    <div class="column-4 meni-item">
+                    <a class="column-4 meni-item" href="#meni-modal-01" data-inline-popup>
                         <div class="pict">
                             <i class="icon-chicken"></i>
                             <%- @partial('svg-shape.html') %>
                         </div>
                         <h2>Piletina</h2>
-                    </div>
+                    </a>
                     <div class="column-4 meni-item">
                         <div class="pict">
                             <i class="icon-pizza"></i>
@@ -57,7 +57,7 @@
     <!-------------------------------->
 
 
-    <img src="<%= @site.url %>/images/s02-e04.png" alt="" class="absolute z1"
+    <img src="<%= @site.url %>/images/s02-e04.png" alt="" class="absolute z1 parallax-layer"
          data-1100="left:5%; bottom: -600px;"
          data-2500="left:5%; bottom: 400px;"
             />
