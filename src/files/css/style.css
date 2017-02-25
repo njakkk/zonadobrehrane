@@ -493,6 +493,13 @@ h4 {
 .parallax-layer {
   pointer-events: none; }
 
+@media screen and (max-width: 1400px) {
+  .parallax-layer {
+    transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); } }
+
 @media screen and (max-width: 1200px) {
   .parallax-layer {
     display: none; }
