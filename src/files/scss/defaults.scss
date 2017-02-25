@@ -26,17 +26,17 @@ b{
 }
 
 .big-padding{
-  padding: $spacing*4;
+  padding: $spacing*6;
 }
 
 .big-padding-x{
-  padding-left: $spacing*4;
-  padding-right: $spacing*4;
+  padding-left: $spacing*6;
+  padding-right: $spacing*6;
 }
 
 .big-padding-y{
-  padding-top: $spacing*4;
-  padding-bottom: $spacing*4;
+  padding-top: $spacing*6;
+  padding-bottom: $spacing*6;
 }
 
 .vertical-center{
@@ -65,7 +65,7 @@ b{
 
 .title{
   text-align: center;
-  font-size: 2.5vmin;
+  font-size: 3.5vmin;
   font-family: $thin;
   letter-spacing: 0.4em;
   line-height: 1.3em;
@@ -98,6 +98,10 @@ b{
 .tr{
   text-align: right;
 }
+
+.z1{ z-index: 1}
+.z2{ z-index: 2}
+.z3{ z-index: 3}
 
 space{
   display: block;

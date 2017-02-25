@@ -1,0 +1,24 @@
+
+<section section class="delivery-section" data-scroll-target="03">
+    <img src="<%= @site.url %>/images/section_03.png" alt="" class="delivery-img"/>
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="column-2 vh"></div>
+            <div class="column-2 big-padding-x vh">
+
+                <img src="<%= @site.url %>/images/s02-e03.png" alt="" class="absolute"
+                     data-1100="right:-20px; top: -50px;"
+                     data-2500="right:-20px; top: -200px;"
+                        />
+
+                <div class="vertical-center">
+                    <h1 class="spaced-caption">Stižemo do tebe pre nego što ogladniš</h1>
+                    <div class="spacer"><span></span></div>
+                    <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+                    <br/>
+                    <a class="btn" href="#" data-scroll-trigger="05">Naruči</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

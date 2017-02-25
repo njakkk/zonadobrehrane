@@ -1,8 +1,9 @@
 @import 'variables';
 
 img.home-logo {
+  width: 20vmin;
   max-width: 200px;
-  margin-top: -100px;
+  margin-top: -10vmin;
 }
 
 .home-section{
@@ -13,7 +14,7 @@ img.home-logo {
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -23,17 +24,4 @@ img.home-logo {
   left: 0;
   max-width: 100%;
   height: auto;
-}
-
-.main-menu {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  li{
-    opacity: 0.5;
-    &.active{
-      opacity: 1;
-    }
-  }
 }

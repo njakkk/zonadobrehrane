@@ -5,14 +5,18 @@
   display: inline-block;
   min-width: $btn-size*2;
   height: $btn-size;
-  line-height: $btn-size - 2px;
-  padding: 0 $ui-el-size/2;
-  font-size: 12px;
-  letter-spacing: 0.15em;
+  line-height: $btn-size;
+  padding: 0 $ui-el-size/1.2;
+  font-size: 14px;
+  letter-spacing: 0.4em;
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
-  border: solid 1px transparent;
+  border: none;
+  color: $white;
+  background: darken($dark, 6);
+  border-radius: 2px;
+  font-family: $thin;
   @include basicTransition(0.4s);
   >*{
     display: inline-block;
@@ -33,28 +37,19 @@
   }
 
   &.white {
-    color: $light-grey;
-    border-color: $light-grey;
+    color: $dark;
+    background: $light-grey;
     &:hover{
       border-color: rgba(255,255,255,0.2);
       background: rgba(255,255,255,0.1);
     }
   }
-
-  &.dark {
-    color: $dark;
-    border-color: $dark;
-    &:hover{
-      border-color: rgba(0,0,0,0.2);
-      background: rgba(0,0,0,0.1);
-    }
-  }
   &.small{
     min-width: $btn-size-small*2;
     height: $btn-size-small;
-    line-height: $btn-size-small - 2px;
-    padding: 0 $ui-el-size/3;
-    font-size: 10px;
+    line-height: $btn-size-small;
+    padding: 0 $ui-el-size/2;
+    font-size: 12px;
     i{
       font-size: $ui-el-size/3.2 - 1px;
     }
@@ -78,9 +73,9 @@
   .btn{
     min-width: $btn-size-small*2;
     height: $btn-size-small;
-    line-height: $btn-size-small - 2px;
-    padding: 0 $ui-el-size/3;
-    font-size: 10px;
+    line-height: $btn-size-small;
+    padding: 0 $ui-el-size/2;
+    font-size: 12px;
     i{
       font-size: $ui-el-size/3.2 - 1px;
     }

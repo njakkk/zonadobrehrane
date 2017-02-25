@@ -1,0 +1,10 @@
+
+<section section class="gallery-section" data-scroll-target="05">
+    <div class="content-wrapper">
+        <div class="vertical-center tc">
+            <h1 class="title">Naša lokacija</h1>
+            <div class="spacer tc"><span></span></div>
+            <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+        </div>
+    </div>
+</section>
