@@ -1,10 +1,22 @@
 
 <section section class="gallery-section bg-light" data-scroll-target="04">
-    <div class="content-wrapper">
-        <div class="vertical-center tc">
+    <div class="big-padding">
+        <div class="content-wrapper tc">
             <h1 class="title">Naša dobra hrana</h1>
             <div class="spacer tc"><span></span></div>
-            <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
         </div>
+        <section class="horizontal-grid-gallery" data-gallery>
+            <a class="item image-gallery" href="images/gallery/s/d_01.jpg"><img src="images/gallery/s/d_01.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_02.jpg"><img src="images/gallery/s/d_02.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_03.jpg"><img src="images/gallery/s/d_03.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_04.jpg"><img src="images/gallery/s/d_04.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_05.jpg"><img src="images/gallery/s/d_05.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_06.jpg"><img src="images/gallery/s/d_06.jpg" alt=""/></a>
+
+            <a class="item image-gallery" href="images/gallery/s/d_01.jpg"><img src="images/gallery/s/d_01.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_05.jpg"><img src="images/gallery/s/d_05.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_02.jpg"><img src="images/gallery/s/d_02.jpg" alt=""/></a>
+            <a class="item image-gallery" href="images/gallery/s/d_03.jpg"><img src="images/gallery/s/d_03.jpg" alt=""/></a>
+        </section>
     </div>
 </section>

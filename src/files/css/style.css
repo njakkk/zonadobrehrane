@@ -381,15 +381,21 @@ body {
   overflow: hidden;
   overflow-y: auto; }
 
+html.popup-open {
+  overflow: hidden; }
+  html.popup-open body {
+    overflow-y: hidden; }
+
 .site-wrapper {
   width: 100%;
   overflow-x: hidden;
   position: relative; }
 
 .content-wrapper {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
-  display: inherit; }
+  display: inherit;
+  max-width: 1400px; }
 
 [section] {
   min-height: 100vh;
@@ -1737,11 +1743,14 @@ img.mfp-img {
 /*-------------------------------------------------*/
 /* overlay at start */
 /* overlay at start */
+.mfp-bg {
+  background: #000;
+  opacity: 0.4; }
+
 .mfp-fade.mfp-bg {
   opacity: 0;
   transition: all .5s ease;
-  -webkit-transition: all .5s ease;
-  background: #000; }
+  -webkit-transition: all .5s ease; }
 
 /* overlay animate in */
 .mfp-fade.mfp-bg.mfp-ready {
@@ -1788,10 +1797,11 @@ img.mfp-img {
   max-width: 95%; }
 
 .mfp-content {
-  width: 80vw !important;
   overflow: hidden;
-  background: #2b2224;
   padding: 0; }
+
+.mfp-arrow {
+  position: fixed; }
 
 /* default popup*/
 @media screen and (max-width: 1024px) {
@@ -2009,6 +2019,10 @@ img.home-logo {
 .meni-item:hover .pict i {
   color: #ffe158; }
 
+.meni-modal {
+  background: #2b2224;
+  width: 80vw; }
+
 .meni-modal-title {
   display: block;
   float: left;
@@ -2042,3 +2056,33 @@ img.home-logo {
       font-size: 55px; }
     .meni-item h2 {
       font-size: .95em; } }
+
+/**homepage gallery*****/
+.horizontal-grid-gallery {
+  margin-top: 2.2vmin;
+  position: relative; }
+  .horizontal-grid-gallery:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .horizontal-grid-gallery .item:hover img {
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1); }
+  .horizontal-grid-gallery .item {
+    float: left;
+    margin: 10px;
+    box-sizing: content-box;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 3px; }
+    .horizontal-grid-gallery .item img {
+      display: block;
+      transition: transform .5s ease;
+      -webkit-transition: transform .5s ease;
+      max-width: 100%;
+      border-radius: 3px; }

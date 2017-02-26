@@ -31,6 +31,14 @@ body {
   overflow-y: auto;
 }
 
+html.popup-open{
+  overflow: hidden;
+  body{
+    overflow-y: hidden;
+  }
+
+}
+
 
 
 .site-wrapper{
@@ -40,9 +48,10 @@ body {
 }
 
 .content-wrapper {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   display: inherit;
+  max-width: 1400px;
 }
 
 [section]{

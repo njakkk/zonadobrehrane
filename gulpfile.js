@@ -17,6 +17,7 @@ var paths = {
             'src/files/js/vendor/jquery.viewportchecker.min.js',
             'src/files/js/vendor/skrollr.min.js',
             'src/files/js/vendor/jquery.magnific-popup.min.js',
+            'src/files/js/vendor/jquery.flex-images.js',
 
             'src/files/js/bgImg.js',
             'src/files/js/typewriter.js',

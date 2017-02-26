@@ -89,10 +89,10 @@ function defaultInlinePopup(){
         removalDelay: 300,
         callbacks: {
             open: function() {
-                $('body').addClass('popup-open');
+                $('html').addClass('popup-open');
             },
             close: function() {
-                $('body').removeClass('popup-open');
+                $('html').removeClass('popup-open');
             }
         }
     });
@@ -100,6 +100,45 @@ function defaultInlinePopup(){
     $('[data-close-popup]').click( function(e){
         e.preventDefault();
         $.magnificPopup.close();
+    });
+}
+
+function flexGalery() {
+    var $container = $('[data-gallery]');
+    var $el = $container.find('.item');
+    $container.imagesLoaded(function () {
+        $el.each(function () {
+            var $el = $(this);
+            var $img = $el.find('img');
+            var $imgW = $img.width();
+            var $imgH = $img.height();
+            $el.attr('data-w', $imgW).attr('data-h', $imgH);
+        });
+        $container.flexImages({
+            rowHeight: 240,
+            truncate: true // cut incomplete last row
+        });
+    });
+}
+
+
+function imageGallery(){
+    $('.image-gallery').magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+        zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
+          duration: 500, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function
+            opener: function(openerElement) {
+                return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+        },
+        gallery: {
+            enabled: true
+        }
+
     });
 }
 
@@ -130,6 +169,8 @@ $(document).ready( function() {
     scrollTrigger();
     identifySections();
     defaultInlinePopup();
+    flexGalery();
+    imageGallery();
 
     $('.bg').bgImage();
     $('.vertical-center').verticalCenter();
