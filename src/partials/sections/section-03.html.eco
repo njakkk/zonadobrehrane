@@ -1,6 +1,9 @@
 
 <section section class="delivery-section" data-scroll-target="03">
-    <img src="<%= @site.url %>/images/section_03.png" alt="" class="delivery-img"/>
+    <img src="<%= @site.url %>/images/section_03.png" alt="" class="delivery-img"
+         data-top="bottom: 0px;"
+         data-top-bottom="bottom: -300px;"
+            />
     <div class="content-wrapper">
         <div class="row">
             <div class="column-2 vh"></div>

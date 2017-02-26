@@ -1,5 +1,8 @@
 <section section class="home-section" data-scroll-target="01">
-    <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"/>
+    <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"
+         data-0="top: 0px;"
+         data-800="top: -200px;"
+            />
 
     <img src="<%= @site.url %>/images/s01-e03.png" alt="" class="absolute parallax-layer"
          data-400="left:20%; bottom: -200px;"
