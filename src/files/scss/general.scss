@@ -48,10 +48,9 @@ html.popup-open{
 }
 
 .content-wrapper {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   display: inherit;
-  max-width: 1400px;
 }
 
 [section]{

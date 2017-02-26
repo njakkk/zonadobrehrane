@@ -392,10 +392,9 @@ html.popup-open {
   position: relative; }
 
 .content-wrapper {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
-  display: inherit;
-  max-width: 1400px; }
+  display: inherit; }
 
 [section] {
   min-height: 100vh;
