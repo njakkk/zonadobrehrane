@@ -116,7 +116,7 @@ function flexGalery() {
         });
         $container.flexImages({
             rowHeight: 240,
-            truncate: true // cut incomplete last row
+            truncate: false // cut incomplete last row
         });
     });
 }
