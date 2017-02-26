@@ -1783,6 +1783,9 @@ img.mfp-img {
   -webkit-transform: scale(1.1); }
 
 /*-------------------------------------------------*/
+.mfp-close {
+  font-size: 17px; }
+
 .mfp-close-btn-in .mfp-close {
   color: #fff; }
 
