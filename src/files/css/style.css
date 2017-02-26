@@ -384,7 +384,10 @@ body {
 html.popup-open {
   overflow: hidden; }
   html.popup-open body {
-    overflow-y: hidden; }
+    overflow: hidden; }
+  html.popup-open .site-wrapper {
+    filter: blur(3px);
+    -webkit-filter: blur(3px); }
 
 .site-wrapper {
   width: 100%;

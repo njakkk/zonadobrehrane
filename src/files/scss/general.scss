@@ -34,11 +34,14 @@ body {
 html.popup-open{
   overflow: hidden;
   body{
-    overflow-y: hidden;
+    overflow: hidden;
+  }
+  .site-wrapper{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
   }
 
 }
-
 
 
 .site-wrapper{

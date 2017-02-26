@@ -137,6 +137,14 @@ function imageGallery(){
         },
         gallery: {
             enabled: true
+        },
+        callbacks: {
+            open: function() {
+                $('html').addClass('popup-open');
+            },
+            close: function() {
+                $('html').removeClass('popup-open');
+            }
         }
 
     });
