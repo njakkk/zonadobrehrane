@@ -2196,10 +2196,9 @@ img.home-logo {
   float: left;
   width: 60%;
   padding: 4.4vmin;
-  height: 90vh;
+  max-height: 90vh;
   overflow-y: auto;
-  overflow-x: hidden;
-  border-left: solid 1px rgba(255, 255, 255, 0.05); }
+  overflow-x: hidden; }
 
 .meni-modal-img {
   background-size: contain;
@@ -2207,7 +2206,7 @@ img.home-logo {
   background-repeat: no-repeat; }
 
 .meni-list-item {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
   zoom: 1; }
   .meni-list-item:before, .meni-list-item:after {
