@@ -2072,6 +2072,7 @@ img.home-logo {
     display: block;
     position: relative;
     opacity: 0.3;
+    white-space: nowrap;
     -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);

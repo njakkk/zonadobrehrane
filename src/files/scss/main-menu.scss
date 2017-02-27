@@ -81,6 +81,7 @@
     display: block;
     position: relative;
     opacity: 0.3;
+    white-space: nowrap;
     @include basicTransition(0.4s);
   }
   a:after{

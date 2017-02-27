@@ -8,7 +8,7 @@
 	s-20.91-83.81-36.72-122.06C53.55,415.48,8.5,382.33,8.5,340s45.05-75.48,60.35-112.37c15.81-38.25,7.99-93.33,36.72-122.06
 	s83.81-20.91,122.06-36.72C264.52,53.55,297.67,8.5,340,8.5s75.48,45.05,112.37,60.35c38.25,15.81,93.33,7.99,122.06,36.72
 	s20.91,83.81,36.72,122.06C626.45,264.52,671.5,297.5,671.5,340z">
-        <!--<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 340 340" to="360 340 340" dur="30s" repeatCount="indefinite"/>-->
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 340 340" to="360 340 340" dur="5s" repeatCount="indefinite"/>
 </path>
 <path id="logo-blue-bg" fill="#DFF2F0" d="M615.06,340c0,35.19-37.4,62.56-49.98,93.16c-13.09,31.62-6.63,77.35-30.6,101.32
 	c-23.8,23.8-69.53,17.34-101.32,30.6c-30.6,12.75-57.97,49.98-93.16,49.98s-62.56-37.4-93.16-49.98
@@ -16,7 +16,7 @@
 	s37.4-62.56,49.98-93.16c13.09-31.62,6.63-77.35,30.6-101.32c23.8-23.8,69.53-17.34,101.32-30.6c30.6-12.75,57.97-49.98,93.16-49.98
 	s62.56,37.4,93.16,49.98c31.62,13.09,77.35,6.63,101.32,30.6c23.8,23.8,17.34,69.53,30.6,101.32
 	C577.66,277.27,615.06,304.81,615.06,340z">
-    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="45 340 340" to="0 340 340" dur="8s" repeatCount="1"/>
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 340 340" to="0 340 340" dur="10s" repeatCount="indefinite"/>
 </path>
 
 <g id="logo-shapes">
@@ -2246,6 +2246,6 @@
 	c0-19.21-13.43-37.06-26.52-54.23c-8.67-11.56-17.68-23.46-22.95-36.21c-5.44-13.26-7.82-28.56-9.86-43.35
 	c-3.23-21.93-6.29-42.84-19.04-55.59s-33.66-15.81-55.59-19.04c-14.79-2.21-30.09-4.42-43.35-9.86
 	c-12.58-5.27-24.65-14.28-36.21-22.95C377.06,85.68,359.21,72.08,340,72.08z">
-        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 340 340" to="45 340 340" dur="6s" repeatCount="1"/>
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 340 340" to="360 340 340" dur="6s" repeatCount="indefinite"/>
 </path>
 </svg>
