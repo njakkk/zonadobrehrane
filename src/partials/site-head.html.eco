@@ -15,6 +15,9 @@
     <meta property="og:description" content="Zona dobre hrane" />
     <meta property="og:url" content="http://zonadobrehrane.com" />
 
+    <!--theme-->
+    <meta name="theme-color" content="#2b2224" />
+
     <!--no caching-->
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
