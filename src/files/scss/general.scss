@@ -155,9 +155,9 @@ h4 { font-size: 100%; font-weight: 600; text-transform: uppercase; margin-bottom
 
 .bg-light{
   background: $light-grey;
-  color: lighten($dark, 10);
+  color: $dark-text;
   a {
-    color: lighten($dark, 10);
+    color: $dark-text;
   }
 }
 

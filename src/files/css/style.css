@@ -497,9 +497,9 @@ h4 {
 
 .bg-light {
   background: #f4f4f4;
-  color: #47393c; }
+  color: #494949; }
   .bg-light a {
-    color: #47393c; }
+    color: #494949; }
 
 .parallax-layer {
   pointer-events: none; }
@@ -1932,9 +1932,9 @@ img.home-logo {
   /* custom */ }
   .contact-info h1 {
     font-family: "Eveleth", sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     margin-bottom: 0.3em;
-    font-size: 3.3vmin; }
+    font-size: 3vmin; }
   .contact-info p {
     letter-spacing: initial;
     opacity: 0.85;
