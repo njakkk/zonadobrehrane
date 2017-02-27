@@ -1,10 +1,8 @@
 
-<section section class="gallery-section" data-scroll-target="05">
-    <div class="content-wrapper">
-        <div class="vertical-center tc">
-            <h1 class="title">Naša lokacija</h1>
-            <div class="spacer tc"><span></span></div>
-            <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
-        </div>
-    </div>
+<section section class="map-section" data-scroll-target="05">
+
+    <div id="location" class="location-map" data-latitude="44.849682" data-longitude="20.401198"></div>
+
+    <button class="" id="map-zoomin" style="position: absolute; bottom: 40px; right: 40px">zoom in</button>
+    <button class="" id="map-zoomout" style="position: absolute; bottom: 100px; right: 40px">zoom out</button>
 </section>

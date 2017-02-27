@@ -47,6 +47,8 @@
     <link href="<%= @site.url %>/css/style.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="<%= @site.url %>/js/vendor/jquery-2.1.3.min.js"></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO91agQqRZps3cy-2tEZb5unz5kzV2kXo"></script>
+
 </head>
 
 <body>

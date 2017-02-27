@@ -9,9 +9,9 @@
   .pict{
     position: relative;
     svg{
-      height: auto;
-      width: 23vmin;
-      min-width: 105px;
+      height: 23vmin;
+      width: auto;
+      min-height: 105px;
       margin: $spacing 0;
       @include basicTransition(0.5s);
 
