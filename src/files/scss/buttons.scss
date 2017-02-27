@@ -7,16 +7,16 @@
   height: $btn-size;
   line-height: $btn-size;
   padding: 0 $ui-el-size/1.2;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  font-weight: 600;
   text-align: center;
   border: none;
   color: $white;
   background: darken($dark, 6);
   border-radius: 2px;
   font-family: $thin;
+  font-weight: 100;
   @include basicTransition(0.4s);
   >*{
     display: inline-block;
@@ -49,7 +49,7 @@
     height: $btn-size-small;
     line-height: $btn-size-small;
     padding: 0 $ui-el-size/2;
-    font-size: 12px;
+    font-size: 10px;
     i{
       font-size: $ui-el-size/3.2 - 1px;
     }
@@ -75,7 +75,7 @@
     height: $btn-size-small;
     line-height: $btn-size-small;
     padding: 0 $ui-el-size/2;
-    font-size: 12px;
+    font-size: 10px;
     i{
       font-size: $ui-el-size/3.2 - 1px;
     }

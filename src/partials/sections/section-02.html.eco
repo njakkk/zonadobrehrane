@@ -16,7 +16,7 @@
     <div class="content-wrapper vh">
         <div class="vertical-center">
             <div class="row" data-0="transform: scale(0.6);" data-200-center="transform: scale(1);">
-                <div class="">
+                <div class="meni-title">
                     <h1 class="title">meni</h1>
                     <div class="spacer tc"><span></span></div>
                 </div>

@@ -76,8 +76,9 @@ img.home-logo {
   @include basicTransition(1s);
   h1{
     font-family: $strong;
+    font-weight: 300;
     margin-bottom: 0.3em;
-    font-size: 4.5vmin;
+    font-size: 3.3vmin;
   }
   p{
     letter-spacing: initial;

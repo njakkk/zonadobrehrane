@@ -35,7 +35,7 @@ function identifySections() {
 
     $sections.viewportChecker({
         classToAdd: 'current',
-        offset: 300,
+        offset: '40%',
         repeat: true,
         callbackFunction: function() {
             updateNav();

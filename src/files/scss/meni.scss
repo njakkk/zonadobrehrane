@@ -2,6 +2,10 @@
 
 .meni{}
 
+.meni-title{
+  margin-top: -$nav-height;
+}
+
 .meni-item{
   padding: 0 $spacing*2;
   cursor: pointer;
@@ -38,7 +42,8 @@
   }
   h2{
     font-family: $thin;
-    font-size: 1.2em;
+    font-weight: 100;
+    font-size: 1.1em;
     letter-spacing: 0.2em;
   }
 }
@@ -76,7 +81,8 @@
   text-align: center;
   h1{
     font-family: $thin;
-    font-size: 6vmin;
+    font-weight: 100;
+    font-size: 4.5vmin;
     letter-spacing: 0.3em;
   }
 }
@@ -100,6 +106,14 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
+
+@media screen and (max-width: $tabLandscape){
+
+  .meni-title{
+    margin-top: 0;
+  }
+
+}
 
 @media screen and (max-width: $mobile){
 

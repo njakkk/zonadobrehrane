@@ -411,7 +411,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 300%;
-  font-family: "evelethclean_thin", sans-serif; }
+  font-family: "Eveleth", sans-serif;
+  font-weight: 100; }
 
 h2 {
   font-size: 250%; }
@@ -629,7 +630,8 @@ b {
   text-transform: uppercase; }
 
 .strong-font {
-  font-family: "evelethclean_regular", sans-serif; }
+  font-family: "Eveleth", sans-serif;
+  font-weight: 300; }
 
 .big-padding {
   padding: 13.2vmin; }
@@ -656,15 +658,17 @@ b {
   position: relative; }
 
 .spaced-caption {
-  font-size: 5.5vmin;
-  font-family: "evelethclean_thin", sans-serif;
+  font-size: 4.5vmin;
+  font-family: "Eveleth", sans-serif;
+  font-weight: 100;
   letter-spacing: 0.4em;
-  line-height: 1.2em; }
+  line-height: 1.5em; }
 
 .title {
   text-align: center;
-  font-size: 3.5vmin;
-  font-family: "evelethclean_thin", sans-serif;
+  font-size: 2.6vmin;
+  font-family: "Eveleth", sans-serif;
+  font-weight: 100;
   letter-spacing: 0.4em;
   line-height: 1.3em; }
 
@@ -718,8 +722,9 @@ b {
 .phone {
   display: block;
   margin: 2.2vmin 0;
-  font-size: 4vmin;
-  font-family: "evelethclean_thin", sans-serif; }
+  font-size: 3.3vmin;
+  font-family: "Eveleth", sans-serif;
+  font-weight: 100; }
   .phone i, .phone span {
     display: inline-block;
     vertical-align: middle; }
@@ -764,16 +769,16 @@ b {
   height: 48px;
   line-height: 48px;
   padding: 0 37.5px;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  font-weight: 600;
   text-align: center;
   border: none;
   color: #fff;
   background: #1a1416;
   border-radius: 2px;
-  font-family: "evelethclean_thin", sans-serif;
+  font-family: "Eveleth", sans-serif;
+  font-weight: 100;
   -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -802,7 +807,7 @@ b {
     height: 38px;
     line-height: 38px;
     padding: 0 22.5px;
-    font-size: 12px; }
+    font-size: 10px; }
     .btn.small i {
       font-size: 13.0625px; }
 
@@ -818,7 +823,7 @@ b {
     height: 38px;
     line-height: 38px;
     padding: 0 22.5px;
-    font-size: 12px; }
+    font-size: 10px; }
     .btn i {
       font-size: 13.0625px; } }
 
@@ -1892,9 +1897,10 @@ img.home-logo {
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   /* custom */ }
   .contact-info h1 {
-    font-family: "evelethclean_regular", sans-serif;
+    font-family: "Eveleth", sans-serif;
+    font-weight: 300;
     margin-bottom: 0.3em;
-    font-size: 4.5vmin; }
+    font-size: 3.3vmin; }
   .contact-info p {
     letter-spacing: initial;
     opacity: 0.85;
@@ -2039,10 +2045,11 @@ img.home-logo {
   .main-menu a:after {
     content: "" attr(data-num) "";
     position: absolute;
-    top: 0;
+    top: 7px;
     left: 30%;
-    font-size: 71.5px;
-    font-family: "evelethclean_thin", sans-serif;
+    font-size: 55px;
+    font-family: "Eveleth", sans-serif;
+    font-weight: 100;
     opacity: 0;
     -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -2075,6 +2082,9 @@ img.home-logo {
 @media screen and (max-width: 1200px) {
   .main-menu {
     display: none !important; } }
+
+.meni-title {
+  margin-top: -55px; }
 
 .meni-item {
   padding: 0 4.4vmin;
@@ -2117,8 +2127,9 @@ img.home-logo {
       /* custom */
       z-index: 1; }
   .meni-item h2 {
-    font-family: "evelethclean_thin", sans-serif;
-    font-size: 1.2em;
+    font-family: "Eveleth", sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
     letter-spacing: 0.2em; }
 
 .meni-item:hover .pict svg path {
@@ -2142,8 +2153,9 @@ img.home-logo {
   padding: 4.4vmin;
   text-align: center; }
   .meni-modal-title h1 {
-    font-family: "evelethclean_thin", sans-serif;
-    font-size: 6vmin;
+    font-family: "Eveleth", sans-serif;
+    font-weight: 100;
+    font-size: 4.5vmin;
     letter-spacing: 0.3em; }
 
 .meni-modal-txt {
@@ -2160,6 +2172,10 @@ img.home-logo {
   background-size: contain;
   background-position: bottom left;
   background-repeat: no-repeat; }
+
+@media screen and (max-width: 1200px) {
+  .meni-title {
+    margin-top: 0; } }
 
 @media screen and (max-width: 500px) {
   .meni-item {

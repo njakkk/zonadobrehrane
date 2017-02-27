@@ -23,6 +23,7 @@ b{
 
 .strong-font{
   font-family: $strong;
+  font-weight: 300;
 }
 
 .big-padding{
@@ -57,16 +58,18 @@ b{
 }
 
 .spaced-caption{
-  font-size: 5.5vmin;
+  font-size: 4.5vmin;
   font-family: $thin;
+  font-weight: 100;
   letter-spacing: 0.4em;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 .title{
   text-align: center;
-  font-size: 3.5vmin;
+  font-size: 2.6vmin;
   font-family: $thin;
+  font-weight: 100;
   letter-spacing: 0.4em;
   line-height: 1.3em;
 }
@@ -113,8 +116,9 @@ b{
 .phone{
   display: block;
   margin: $spacing 0;
-  font-size: 4vmin;
+  font-size: 3.3vmin;
   font-family: $thin;
+  font-weight: 100;
   i,span{
     display: inline-block;
     vertical-align: middle;
