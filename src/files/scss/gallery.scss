@@ -11,7 +11,7 @@
     display: block;
     clear: both;
   }
-  .item:hover img{
+  .item:hover img, .item:focus img{
     @include scale(1.1, 1.1);
   }
 
