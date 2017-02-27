@@ -1,8 +1,29 @@
 
 <section section class="map-section" data-scroll-target="05">
+    <div class="contact-info bg-light vertical-center z1">
+        <h1>Gde se nalazimo?</h1>
+        <p><b>Cara Dušana 60</b> - ugao Cara Dušana i Dobrovoljačke</p>
+        <div class="spacer"><span></span></div>
+
+        <h1>Do kada radimo</h1>
+        <p>Svakim radnim danom od <b>09:00</b> do <b>01:00</b>,</p>
+        <p>subotom i nedeljom od <b>09:00</b> do <b>20:00</b></p>
+        <div class="spacer"><span></span></div>
+
+        <h1>Kako da naručiš?</h1>
+        <p>Odaberi bilo šta iz našeg ukusnog menija i pozovi nas!</p>
+
+        <a class="phone" href="tel:+381633558869">
+            <i class="icon-phone"></i>
+            <span>063 355 88 69</span>
+        </a>
+    </div>
 
     <div id="location" class="location-map" data-latitude="44.849682" data-longitude="20.401198"></div>
 
-    <button class="" id="map-zoomin" style="position: absolute; bottom: 40px; right: 40px">zoom in</button>
-    <button class="" id="map-zoomout" style="position: absolute; bottom: 100px; right: 40px">zoom out</button>
+    <div class="map-nav">
+        <button class="" id="map-zoomin"><i class="icon-add"></i></button>
+        <button class="" id="map-zoomout"><i class="icon-remove"></i></button>
+    </div>
+
 </section>

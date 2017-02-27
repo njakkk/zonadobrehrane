@@ -155,7 +155,10 @@ h4 { font-size: 100%; font-weight: 600; text-transform: uppercase; margin-bottom
 
 .bg-light{
   background: $light-grey;
-  color: $dark;
+  color: lighten($dark, 10);
+  a {
+    color: lighten($dark, 10);
+  }
 }
 
 .parallax-layer{
