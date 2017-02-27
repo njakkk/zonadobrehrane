@@ -2177,9 +2177,23 @@ img.home-logo {
 
 .meni-modal {
   background: #2b2224;
-  width: 80vw; }
+  width: 80vw;
+  position: relative; }
+
+.meni-modal-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 0; }
 
 .meni-modal-title {
+  position: relative;
+  z-index: 1;
   display: block;
   float: left;
   width: 40%;
@@ -2192,6 +2206,8 @@ img.home-logo {
     letter-spacing: 0.3em; }
 
 .meni-modal-txt {
+  position: relative;
+  z-index: 1;
   display: block;
   float: left;
   width: 60%;
@@ -2199,11 +2215,6 @@ img.home-logo {
   max-height: 90vh;
   overflow-y: auto;
   overflow-x: hidden; }
-
-.meni-modal-img {
-  background-size: contain;
-  background-position: bottom left;
-  background-repeat: no-repeat; }
 
 .meni-list-item {
   margin-bottom: 40px;
@@ -2216,18 +2227,29 @@ img.home-logo {
     overflow: hidden; }
   .meni-list-item:after {
     clear: both; }
+  .meni-list-item article {
+    position: relative;
+    zoom: 1; }
+    .meni-list-item article:before, .meni-list-item article:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+    .meni-list-item article:after {
+      clear: both; }
   .meni-list-item h4 {
     clear: both; }
   .meni-list-item p {
     float: left;
     font-size: 0.8em;
-    background: #2b2224;
     position: relative;
     z-index: 1;
     opacity: 1;
     color: #b3b3b3;
-    padding-right: 10px;
-    line-height: 25px; }
+    line-height: 20px;
+    max-width: 80%; }
+    .meni-list-item p span {
+      background: #2b2224; }
   .meni-list-item h5 {
     float: right;
     background: #2b2224;
@@ -2235,23 +2257,52 @@ img.home-logo {
     margin: 0;
     position: relative;
     z-index: 1;
-    padding-left: 10px;
-    line-height: 25px; }
-  .meni-list-item span {
+    padding-left: 5px;
+    line-height: 20px; }
+  .meni-list-item aside {
     position: absolute;
     right: 0;
-    bottom: 3px;
+    top: 0;
+    line-height: 15px;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     font-size: 13px;
     opacity: 0.3; }
-    .meni-list-item span:after {
+    .meni-list-item aside:after {
       content: ' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . '; }
 
+@media screen and (max-width: 1400px) {
+  .meni-modal {
+    width: 90vw; } }
+
 @media screen and (max-width: 1200px) {
+  .meni-modal {
+    width: 95vw; }
   .meni-title {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .meni-modal-img {
+    opacity: 0.15; }
+  .meni-modal-title, .meni-modal-txt {
+    width: 100%;
+    float: none; }
+  .meni-modal-txt {
+    max-height: initial; }
+  .meni-list-item p {
+    float: none;
+    max-width: 100%; }
+    .meni-list-item p span {
+      background: transparent; }
+  .meni-list-item h5 {
+    float: none;
+    background: transparent;
+    font-size: 130%;
+    padding-left: 0px;
+    margin-top: 10px; }
+  .meni-list-item aside {
+    position: absolute;
+    top: initial;
+    bottom: -20px; } }
 
 @media screen and (max-width: 500px) {
   .meni-item {

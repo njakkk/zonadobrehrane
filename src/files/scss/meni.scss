@@ -70,10 +70,25 @@
 .meni-modal{
   background: $dark;
   width: 80vw;
+  position: relative;
+}
+
+.meni-modal-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 0;
 }
 
 
 .meni-modal-title{
+  position: relative;
+  z-index: 1;
   display: block;
   float: left;
   width: 40%;
@@ -88,6 +103,8 @@
 }
 
 .meni-modal-txt{
+  position: relative;
+  z-index: 1;
   display: block;
   float: left;
   width: 60%;
@@ -95,32 +112,32 @@
   max-height: 90vh;
   overflow-y: auto;
   overflow-x: hidden;
-//  border-left: solid 1px rgba(255,255,255,0.05);
-}
-
-.meni-modal-img{
-  background-size: contain;
-  background-position: bottom left;
-  background-repeat: no-repeat;
 }
 
 .meni-list-item{
   margin-bottom: 40px;
   position: relative;
   @include clearfix;
+  article{
+    position: relative;
+    @include clearfix;
+  }
+
   h4{
     clear: both;
   }
   p{
     float: left;
     font-size: 0.8em;
-    background: $dark;
     position: relative;
     z-index: 1;
     opacity: 1;
     color: darken($white, 30);
-    padding-right: 10px;
-    line-height: 25px;
+    line-height: 20px;
+    max-width: 80%;
+    span{
+      background: $dark;
+    }
   }
   h5{
     float: right;
@@ -129,14 +146,15 @@
     margin: 0;
     position: relative;
     z-index: 1;
-    padding-left: 10px;
-    line-height: 25px;
+    padding-left: 5px;
+    line-height: 20px;
   }
 
-  span{
+  aside{
     position: absolute;
     right: 0;
-    bottom: 3px;
+    top: 0;
+    line-height: 15px;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -151,13 +169,57 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
 
+@media screen and (max-width: $smallDesktop){
+  .meni-modal{
+    width: 90vw;
+  }
+}
+
+
 @media screen and (max-width: $tabLandscape){
+  .meni-modal{
+    width: 95vw;
+  }
 
   .meni-title{
     margin-top: 0;
   }
 
+  .meni-modal-img {
+    opacity: 0.15;
+  }
+
+  .meni-modal-title, .meni-modal-txt{
+    width: 100%;
+    float: none;
+  }
+  .meni-modal-txt{
+    max-height: initial;
+  }
+
+  .meni-list-item{
+    p{
+      float: none;
+      max-width: 100%;
+      span{
+        background: transparent;
+      }
+    }
+    h5{
+      float: none;
+      background: transparent;
+      font-size: 130%;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    aside{
+      position: absolute;
+      top: initial;
+      bottom: -20px;
+    }
+  }
 }
+
 
 @media screen and (max-width: $mobile){
 

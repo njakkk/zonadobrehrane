@@ -1,72 +1,84 @@
 <div id="meni-modal-01" class="mfp-hide">
-    <section class="row meni-modal pattern meni-modal-img bg">
-        <img src="<%= @site.url %>/images/meni-01.jpg" alt="" data-bg-img/>
+    <section class="row meni-modal pattern">
+        <div class="meni-modal-img bg">
+            <img src="<%= @site.url %>/images/meni-01.jpg" alt="" data-bg-img/>
+        </div>
         <div class="meni-modal-title">
             <h1>Piletina</h1>
         </div>
         <div class="meni-modal-txt">
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
             <div class="meni-list-item">
                 <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
+                <article>
+                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                    <h5>360,00</h5>
+                    <aside></aside>
+                </article>
             </div>
 
-            <div class="meni-list-item">
-                <h4>Rfgerkjrelkje erkje</h4>
-                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-                <h5>360,00</h5>
-                <span></span>
-            </div>
         </div>
     </section>
 </div>
