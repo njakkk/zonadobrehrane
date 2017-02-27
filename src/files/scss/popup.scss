@@ -74,8 +74,46 @@
   padding: 0;
 }
 
+/*----------------------------------------------*/
+
 .mfp-arrow{
   position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px !important;
+  text-align: center;
+}
+.mfp-arrow-left {
+  left: $spacing;
+}
+.mfp-arrow-right {
+  right: $spacing;
+}
+
+.mfp-arrow-left:before,
+.mfp-arrow-right:before {
+  display: none;
+}
+
+.mfp-arrow-left:after,
+.mfp-arrow-right:after {
+  font-family: 'icomoon';
+  font-size: 30px;
+  color: $white;
+  border: none !important;
+  margin: 0 !important;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+}
+
+.mfp-arrow-left:after {
+  content:'\e408';
+}
+.mfp-arrow-right:after {
+  content:'\e409';
 }
 
 

@@ -1817,8 +1817,42 @@ img.mfp-img {
   overflow: hidden;
   padding: 0; }
 
+/*----------------------------------------------*/
 .mfp-arrow {
-  position: fixed; }
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px !important;
+  text-align: center; }
+
+.mfp-arrow-left {
+  left: 2.2vmin; }
+
+.mfp-arrow-right {
+  right: 2.2vmin; }
+
+.mfp-arrow-left:before,
+.mfp-arrow-right:before {
+  display: none; }
+
+.mfp-arrow-left:after,
+.mfp-arrow-right:after {
+  font-family: 'icomoon';
+  font-size: 30px;
+  color: #fff;
+  border: none !important;
+  margin: 0 !important;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  top: 0; }
+
+.mfp-arrow-left:after {
+  content: '\e408'; }
+
+.mfp-arrow-right:after {
+  content: '\e409'; }
 
 /* default popup*/
 @media screen and (max-width: 1024px) {
@@ -2045,9 +2079,9 @@ img.home-logo {
   .main-menu a:after {
     content: "" attr(data-num) "";
     position: absolute;
-    top: 7px;
+    top: 0px;
     left: 30%;
-    font-size: 55px;
+    font-size: 50px;
     font-family: "Eveleth", sans-serif;
     font-weight: 100;
     opacity: 0;

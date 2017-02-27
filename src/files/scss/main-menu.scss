@@ -86,9 +86,9 @@
   a:after{
     content: ""attr(data-num)"";
     position: absolute;
-    top: 7px;
+    top: 0px;
     left: 30%;
-    font-size: $nav-height;
+    font-size: $nav-height/1.1;
     font-family: $thin;
     font-weight: 100;
     opacity: 0;
