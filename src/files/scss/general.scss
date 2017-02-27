@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 { font-size: 300%; font-family: $thin; font-weight: 100;}
 h2 { font-size: 250%}
 h3 { font-size: 200%}
-h4 { font-size: 100%; font-weight: 600; text-transform: uppercase; margin-bottom: 10px}
+h4 { font-size: 120%; margin-bottom: 10px}
 
 @media screen and ( min-width: 1200px){
   ::-webkit-scrollbar {
@@ -86,7 +86,7 @@ h4 { font-size: 100%; font-weight: 600; text-transform: uppercase; margin-bottom
 
   ::-webkit-scrollbar-thumb {
     border-radius: 0px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.2);
   }
 }
 

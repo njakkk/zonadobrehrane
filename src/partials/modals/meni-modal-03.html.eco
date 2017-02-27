@@ -5,23 +5,70 @@
             <h1>Palačinke</h1>
         </div>
         <div class="meni-modal-txt">
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
-            <h4>Rfgerkjrelkje erkje</h4>
-            <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
+
+            <div class="meni-list-item">
+                <h4>Rfgerkjrelkje erkje</h4>
+                <p>alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</p>
+                <h5>360,00</h5>
+                <span></span>
+            </div>
         </div>
+
     </section>
 </div>
 

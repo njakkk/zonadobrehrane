@@ -421,9 +421,7 @@ h3 {
   font-size: 200%; }
 
 h4 {
-  font-size: 100%;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-size: 120%;
   margin-bottom: 10px; }
 
 @media screen and (min-width: 1200px) {
@@ -434,7 +432,7 @@ h4 {
     background-color: rgba(0, 0, 0, 0.1); }
   ::-webkit-scrollbar-thumb {
     border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0.5); } }
+    background-color: rgba(0, 0, 0, 0.2); } }
 
 /****************************************/
 [site-loader] {
@@ -2198,15 +2196,59 @@ img.home-logo {
   float: left;
   width: 60%;
   padding: 4.4vmin;
-  max-height: 90vh;
-  min-height: 50vh;
+  height: 90vh;
   overflow-y: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  border-left: solid 1px rgba(255, 255, 255, 0.05); }
 
 .meni-modal-img {
   background-size: contain;
   background-position: bottom left;
   background-repeat: no-repeat; }
+
+.meni-list-item {
+  margin-bottom: 20px;
+  position: relative;
+  zoom: 1; }
+  .meni-list-item:before, .meni-list-item:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .meni-list-item:after {
+    clear: both; }
+  .meni-list-item h4 {
+    clear: both; }
+  .meni-list-item p {
+    float: left;
+    font-size: 0.8em;
+    background: #2b2224;
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    color: #b3b3b3;
+    padding-right: 10px;
+    line-height: 25px; }
+  .meni-list-item h5 {
+    float: right;
+    background: #2b2224;
+    font-size: 140%;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+    line-height: 25px; }
+  .meni-list-item span {
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    opacity: 0.3; }
+    .meni-list-item span:after {
+      content: ' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . '; }
 
 @media screen and (max-width: 1200px) {
   .meni-title {
