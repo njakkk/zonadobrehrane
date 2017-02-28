@@ -8,8 +8,13 @@
   height: $nav-height;
   padding: 7px;
   z-index: 3;
+  opacity: 0;
+  @include basicTransition(0.5s);
   img{
     width: 100%;
+  }
+  &.scrolled{
+    opacity: 1;
   }
 }
 

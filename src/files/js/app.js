@@ -8,7 +8,6 @@ function updateNav() {
 
     $('.main-menu').removeClass().addClass('main-menu');
     $('.main-menu').addClass("active-" + $index + "");
-
 }
 
 function scrollTrigger() {
@@ -187,6 +186,35 @@ function initMap(){
     });
 };
 
+$.fn.changeOnScroll = function (opts) {
+    var options = $.extend({
+        top: 0
+    },opts);
+
+    var  $el = $(this);
+    var scrollEl = $(window);
+
+    function changeEl(){
+        $el.each(function() {
+            var self = $(this);
+            var top = options.top;
+
+            scrollEl.on('scroll', function() {
+                if (scrollEl.scrollTop() > top){
+                    self.addClass("scrolled");
+                }
+                else{
+                    self.removeClass("scrolled");
+                }
+            });
+        });
+
+    }
+    changeEl();
+    $(window).on('resize',function() {
+        changeEl();
+    });
+};
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -201,7 +229,6 @@ $(document).ready( function() {
             }
         }
     });
-
     if (s.isMobile()) {
         s.destroy();
     }
@@ -220,6 +247,9 @@ $(document).ready( function() {
 
     $('.bg').bgImage();
     $('.vertical-center').verticalCenter();
+    $('.main-logo').changeOnScroll({ top: 300});
+
+
 
 //---------------------------------------------------------------
     google.maps.event.addDomListener(window, 'load', initMap);

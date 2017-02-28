@@ -1,7 +1,8 @@
-<a class="main-logo" href="#"  data-scroll-trigger="01"
-   data-0="opacity:0;"
-   data-300="opacity:1;"
-        ><img src="<%= @site.url %>/images/logo-small.svg" alt=""/></a>
+
+
+<a class="main-logo" href="#"  data-scroll-trigger="01">
+    <img src="<%= @site.url %>/images/logo-small.svg" alt=""/>
+</a>
 <section class="main-menu">
     <ul>
         <li data-scroll-trigger="05"><a href="#" data-num="05"><span>kontakt</span></a></li>
