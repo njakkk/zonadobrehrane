@@ -188,16 +188,17 @@ function initMap(){
 
 $.fn.changeOnScroll = function (opts) {
     var  $el = $(this);
-    var scrollEl = $(window);
     function changeEl(){
         $el.each(function() {
             var self = $(this);
 
             var options = $.extend({
-                top: self.offset().top
+                top: self.offset().top,
+                scrollElement: $(window)
             },opts);
 
             var top = options.top;
+            var scrollEl = options.scrollElement;
 
             scrollEl.on('scroll', function() {
                 if (scrollEl.scrollTop() > top){
@@ -247,7 +248,9 @@ $(document).ready( function() {
 
     $('.bg').bgImage();
     $('.vertical-center').verticalCenter();
-    $('.main-logo').changeOnScroll({ top: 300});
+    $('.main-logo').changeOnScroll({
+        top: 300
+    });
 
 
 
