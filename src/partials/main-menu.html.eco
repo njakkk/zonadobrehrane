@@ -1,5 +1,3 @@
-
-
 <a class="main-logo" href="#"  data-scroll-trigger="01">
     <img src="<%= @site.url %>/images/logo-small.svg" alt=""/>
 </a>

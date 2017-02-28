@@ -187,16 +187,16 @@ function initMap(){
 };
 
 $.fn.changeOnScroll = function (opts) {
-    var options = $.extend({
-        top: 0
-    },opts);
-
     var  $el = $(this);
     var scrollEl = $(window);
-
     function changeEl(){
         $el.each(function() {
             var self = $(this);
+
+            var options = $.extend({
+                top: self.offset().top
+            },opts);
+
             var top = options.top;
 
             scrollEl.on('scroll', function() {
