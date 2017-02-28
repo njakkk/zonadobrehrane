@@ -233,7 +233,7 @@ $(document).ready( function() {
         s.destroy();
     }
 
-    $('[section]').imagesLoaded( function() {
+    $('.home-section').imagesLoaded( function() {
         setTimeout(function() {
             $('[site-loader]').fadeOut(500);
         },300);
