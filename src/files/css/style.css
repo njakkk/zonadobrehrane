@@ -1603,7 +1603,8 @@ img.home-logo {
 .meni-modal {
   background: #2b2224;
   width: 80vw;
-  position: relative; }
+  position: relative;
+  min-height: 70vh; }
 
 .meni-modal-img {
   position: absolute;

@@ -1,7 +1,7 @@
 <div id="meni-modal-02" class="mfp-hide">
     <section class="row meni-modal pattern">
         <div class="meni-modal-img bg">
-            <img src="<%= @site.url %>/images/meni-01.jpg" alt="" data-bg-img/>
+            <img src="<%= @site.url %>/images/meni-02.jpg" alt="" data-bg-img/>
         </div>
         <div class="meni-modal-title">
             <h1>Pizza</h1>
