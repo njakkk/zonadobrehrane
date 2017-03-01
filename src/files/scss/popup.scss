@@ -30,8 +30,8 @@
 
 .mfp-fade.mfp-wrap .mfp-content{
   opacity: 0;
-  transform: scale(.8) translateY(-200px);
-  -webkit-transform: scale(.8) translateY(-200px);
+  transform: scale(.8) translateY(-100px);
+  -webkit-transform: scale(.8) translateY(-100px);
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
 }
@@ -44,8 +44,8 @@
 /* content animate out */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content{
   opacity: 0;
-  transform: scale(.8) translateY(200px);
-  -webkit-transform: scale(.8) translateY(200px);
+  transform: scale(.8) translateY(100px);
+  -webkit-transform: scale(.8) translateY(100px);
 }
 /*-------------------------------------------------*/
 

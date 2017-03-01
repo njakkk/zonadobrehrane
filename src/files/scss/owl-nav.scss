@@ -5,10 +5,6 @@
   position: relative;
   min-height: 70vh;
 
-  &:before{
-    @include noiz;
-  }
-
   .owl-wrapper-outer.autoHeight{
     transition: none;
     -webkit-transition: none;

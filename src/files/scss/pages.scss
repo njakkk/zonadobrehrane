@@ -68,11 +68,10 @@ img.home-logo {
 
 .contact-info{
   position: absolute;
-  right: -500px;
+  right: -25vw;
   top: 50%;
   padding: $spacing*2;
-  width: 35vw;
-  max-width: 500px;
+  width: 25vw;
   @include basicTransition(1s);
   h1{
     font-family: $strong;
@@ -104,9 +103,7 @@ img.home-logo {
   }
 
   .map-nav{
-    right: initial;
-    left: $spacing;
-    top: $spacing;
+    right: 52vw;
   }
   .location-map{
     width: $vw/2;
@@ -140,6 +137,11 @@ img.home-logo {
     height: $vh/2;
     width: 100%;
   }
+
+  .map-nav{
+    display: none;
+  }
+
   .contact-info{
     position: relative;
     display: block;

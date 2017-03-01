@@ -233,7 +233,7 @@ function meniSlider(){
             navigation : true,
             pagination: false,
             navigationText : ["", ""],
-            transitionStyle: "fade",
+            transitionStyle: "topSlide",
             autoPlay: false,
             stopOnHover:true,
             autoHeight : true,
