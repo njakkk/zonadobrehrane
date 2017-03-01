@@ -8,20 +8,20 @@ phoneHref:  "tel:+381633558869"
 
 
 <section class="pages">
-    <%- @partial('sections/section-01') %>
-    <%- @partial('sections/section-02') %>
-    <%- @partial('sections/section-03') %>
-    <%- @partial('sections/section-04') %>
-    <%- @partial('sections/section-05') %>
+    <%- @partial('sections/01-section-pocetak') %>
+    <%- @partial('sections/02-section-meni') %>
+    <%- @partial('sections/03-section-dostava') %>
+    <%- @partial('sections/04-section-galerija') %>
+    <%- @partial('sections/05-section-kontakt') %>
 </section>
 
 
 <div id="meni-modal" class="mfp-hide">
     <div class="meni-slider">
-        <%- @partial('modals/meni-modal-01') %>
-        <%- @partial('modals/meni-modal-02') %>
-        <%- @partial('modals/meni-modal-03') %>
-        <%- @partial('modals/meni-modal-04') %>
+        <%- @partial('modals/01-modal-piletina') %>
+        <%- @partial('modals/02-modal-pizza') %>
+        <%- @partial('modals/03-modal-palacinke') %>
+        <%- @partial('modals/04-modal-sendvici') %>
     </div>
 </div>
 
