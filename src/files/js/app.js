@@ -240,7 +240,10 @@ function meniSlider(){
             addClassActive: true,
             touchDrag: true,
             mouseDrag: false,
-            rewindNav : true
+            rewindNav : true,
+            //Basic Speeds
+            slideSpeed : 800,
+            rewindSpeed : 2000
         });
     });
 
