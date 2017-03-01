@@ -13,9 +13,9 @@
         <h1>Kako da naručiš?</h1>
         <p>Odaberi bilo šta iz našeg ukusnog menija i pozovi nas!</p>
 
-        <a class="phone" href="tel:+381633558869">
+        <a class="phone" href="<%= @document.phoneHref %>">
             <i class="icon-phone"></i>
-            <span>063 355 88 69</span>
+            <span><%= @document.phone %></span>
         </a>
     </div>
 

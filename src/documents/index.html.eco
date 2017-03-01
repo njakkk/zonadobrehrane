@@ -1,5 +1,7 @@
 ---
 layout: "main"
+phone:  "063 355 88 69"
+phoneHref:  "tel:+381633558869"
 ---
 
 <%- @partial('main-menu') %>
