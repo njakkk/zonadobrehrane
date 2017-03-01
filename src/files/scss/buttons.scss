@@ -11,12 +11,12 @@
   letter-spacing: 0.4em;
   text-transform: uppercase;
   text-align: center;
-  border: none;
   color: $white;
   background: darken($dark, 6);
   border-radius: 2px;
   font-family: $thin;
   font-weight: 100;
+  border: solid 1px transparent;
   @include basicTransition(0.4s);
   >*{
     display: inline-block;
@@ -54,6 +54,10 @@
       font-size: $ui-el-size/3.2 - 1px;
     }
   }
+}
+
+.btn:hover, .btn:focus{
+  border-color: rgba(255,255,255,0.2);
 }
 
 .btn:hover{

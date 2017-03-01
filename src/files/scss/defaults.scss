@@ -122,7 +122,7 @@ b{
 
 .phone{
   display: block;
-  margin: $spacing 0;
+  padding: $spacing 0;
   font-size: 3.3vmin;
   font-family: $thin;
   font-weight: 100;
@@ -132,6 +132,9 @@ b{
   }
   i{
     font-size: 3.6vmin;
+  }
+  &:hover, &:focus{
+    color: $main;
   }
 }
 

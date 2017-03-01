@@ -27,7 +27,7 @@
                     <h1 class="spaced-caption">Dobro došli u zonu dobre hrane!</h1>
                     <div class="spacer"><span></span></div>
                     <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
-                    <a class="phone" href="<%= @document.phoneHref %>">
+                    <a class="phone" href="<%= @document.phoneHref %>" tabindex="1">
                         <i class="icon-phone"></i>
                         <span><%= @document.phone %></span>
                     </a>

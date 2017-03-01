@@ -725,7 +725,7 @@ b {
 
 .phone {
   display: block;
-  margin: 2.2vmin 0;
+  padding: 2.2vmin 0;
   font-size: 3.3vmin;
   font-family: "Eveleth", sans-serif;
   font-weight: 100; }
@@ -734,6 +734,8 @@ b {
     vertical-align: middle; }
   .phone i {
     font-size: 3.6vmin; }
+  .phone:hover, .phone:focus {
+    color: #ffe158; }
 
 @media screen and (max-width: 1200px) {
   .vertical-center {
@@ -777,12 +779,12 @@ b {
   letter-spacing: 0.4em;
   text-transform: uppercase;
   text-align: center;
-  border: none;
   color: #fff;
   background: #1a1416;
   border-radius: 2px;
   font-family: "Eveleth", sans-serif;
   font-weight: 100;
+  border: solid 1px transparent;
   -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -814,6 +816,9 @@ b {
     font-size: 10px; }
     .btn.small i {
       font-size: 13.0625px; }
+
+.btn:hover, .btn:focus {
+  border-color: rgba(255, 255, 255, 0.2); }
 
 .btn:hover .right-icc {
   animation: rightIconAnimation 0.8s both; }
@@ -2152,7 +2157,7 @@ img.home-logo {
   -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   /* custom */ }
-  .main-menu:hover {
+  .main-menu:hover, .main-menu:focus {
     background: rgba(0, 0, 0, 0.4); }
   .main-menu ul {
     display: block;

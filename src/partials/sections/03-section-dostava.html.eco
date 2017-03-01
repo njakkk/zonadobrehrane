@@ -19,7 +19,7 @@
                     <div class="spacer"><span></span></div>
                     <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
                     <br/>
-                    <a class="btn" href="#" data-scroll-trigger="05">Naruči</a>
+                    <a class="btn" href="#" data-scroll-trigger="05" tabindex="6">Naruči</a>
                 </div>
             </div>
         </div>
