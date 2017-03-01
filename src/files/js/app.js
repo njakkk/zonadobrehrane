@@ -44,8 +44,10 @@ function identifySections() {
 
 function defaultInlinePopup(){
 
+    var trigger = $('[data-inline-popup]');
 
-    $('[data-inline-popup]').magnificPopup({
+
+    trigger.magnificPopup({
         type:'inline',
         midClick: true,
         enableEscapeKey:true,
@@ -65,6 +67,11 @@ function defaultInlinePopup(){
     $('[data-close-popup]').click( function(e){
         e.preventDefault();
         $.magnificPopup.close();
+    });
+
+    trigger.on('click',function(){
+        var slideNum = $(this).attr('data-slide');
+        $('.meni-slider').trigger('owl.jumpTo', slideNum - 1)
     });
 }
 
@@ -217,6 +224,52 @@ $.fn.changeOnScroll = function (opts) {
     });
 };
 
+function meniSlider(){
+    var slider = $('.meni-slider');
+
+    slider.each(function () {
+        $(this).owlCarousel({
+            singleItem:true,
+            navigation : true,
+            pagination: false,
+            navigationText : ["", ""],
+            transitionStyle: "fade",
+            autoPlay: false,
+            stopOnHover:true,
+            autoHeight : true,
+            addClassActive: true,
+            touchDrag: true,
+            mouseDrag: false,
+            rewindNav : true
+        });
+    });
+
+    slider.on('mousewheel', '.owl-wrapper', function (e) {
+        if (e.deltaY > 0) {
+            slider.trigger('owl.prev');
+
+        }
+        if (e.deltaY < 0) {
+            slider.trigger('owl.next');
+
+        }
+        else{
+            return false;
+        }
+        e.preventDefault();
+    });
+
+    $(document).keyup(function (e) {
+        if (e.keyCode == 37) {
+            slider.trigger('owl.prev')
+        }
+        if (e.keyCode == 39) {
+            slider.trigger('owl.next')
+        }
+        e.preventDefault();
+    });
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -240,6 +293,7 @@ $(document).ready( function() {
         },300);
     });
 
+    meniSlider();
     scrollTrigger();
     identifySections();
     defaultInlinePopup();

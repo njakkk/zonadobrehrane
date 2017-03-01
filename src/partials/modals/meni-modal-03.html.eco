@@ -1,84 +1,81 @@
-<div id="meni-modal-03" class="mfp-hide">
-    <section class="row meni-modal pattern">
-        <div class="meni-modal-img bg">
-            <img src="<%= @site.url %>/images/meni-03.jpg" alt="" data-bg-img/>
+<section class="row meni-modal pattern">
+    <div class="meni-modal-img bg">
+        <img src="<%= @site.url %>/images/meni-03.jpg" alt="" data-bg-img/>
+    </div>
+    <div class="meni-modal-title">
+        <h1>Palačinke</h1>
+    </div>
+    <div class="meni-modal-txt">
+
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Slatke palačinke</h3>
+            <div class="spacer"><span></span></div>
         </div>
-        <div class="meni-modal-title">
-            <h1>Palačinke</h1>
-        </div>
-        <div class="meni-modal-txt">
-
-            <!-------------------------------------------->
-            <div class="tl">
-                <h3 class="subtitle">Slatke palačinke</h3>
-                <div class="spacer"><span></span></div>
-            </div>
-            <!-------------------------------------------->
+        <!-------------------------------------------->
 
 
-            <div class="meni-list-item">
-                <h4>Eurokrem classic</h4>
-                <article>
-                    <p><span>Eurokrem & plazma</span></p>
-                    <h5>200,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
-            <div class="meni-list-item">
-                <h4>Nutella classic</h4>
-                <article>
-                    <p><span>Nutella & plazma</span></p>
-                    <h5>250,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
-            <div class="meni-list-item">
-                <h4>Eurokrem filovana</h4>
-                <article>
-                    <p><span>Eurokrem, plazma i voće po izboru (banana, malina, višnja)</span></p>
-                    <h5>250,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
-            <div class="meni-list-item">
-                <h4>Nutella filovana</h4>
-                <article>
-                    <p><span>Nutella, plazma i voće po izboru (banana, malina, višnja)</span></p>
-                    <h5>300,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
-            <!-------------------------------------------->
-            <div class="tl">
-                <h3 class="subtitle">Slane palačinke</h3>
-                <div class="spacer"><span></span></div>
-            </div>
-            <!-------------------------------------------->
-
-            <div class="meni-list-item">
-                <h4>Rfgerkjrelkje erkje</h4>
-                <article>
-                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
-                    <h5>360,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
-            <div class="meni-list-item">
-                <h4>Rfgerkjrelkje erkje</h4>
-                <article>
-                    <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
-                    <h5>360,00</h5>
-                    <aside></aside>
-                </article>
-            </div>
-
+        <div class="meni-list-item">
+            <h4>Eurokrem classic</h4>
+            <article>
+                <p><span>Eurokrem & plazma</span></p>
+                <h5>200,00</h5>
+                <aside></aside>
+            </article>
         </div>
 
-    </section>
-</div>
+        <div class="meni-list-item">
+            <h4>Nutella classic</h4>
+            <article>
+                <p><span>Nutella & plazma</span></p>
+                <h5>250,00</h5>
+                <aside></aside>
+            </article>
+        </div>
 
+        <div class="meni-list-item">
+            <h4>Eurokrem filovana</h4>
+            <article>
+                <p><span>Eurokrem, plazma i voće po izboru (banana, malina, višnja)</span></p>
+                <h5>250,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Nutella filovana</h4>
+            <article>
+                <p><span>Nutella, plazma i voće po izboru (banana, malina, višnja)</span></p>
+                <h5>300,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Slane palačinke</h3>
+            <div class="spacer"><span></span></div>
+        </div>
+        <!-------------------------------------------->
+
+        <div class="meni-list-item">
+            <h4>Rfgerkjrelkje erkje</h4>
+            <article>
+                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Rfgerkjrelkje erkje</h4>
+            <article>
+                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+    </div>
+
+</section>

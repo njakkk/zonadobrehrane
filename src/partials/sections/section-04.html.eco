@@ -12,7 +12,6 @@
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/04.jpg"><img src="<%= @site.url %>/images/gallery/04.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/05.jpg"><img src="<%= @site.url %>/images/gallery/05.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/06.jpg"><img src="<%= @site.url %>/images/gallery/06.jpg" alt=""/></a>
-<%= @site.url %>/<%= @site.url %>/
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/01.jpg"><img src="<%= @site.url %>/images/gallery/01.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/05.jpg"><img src="<%= @site.url %>/images/gallery/05.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/02.jpg"><img src="<%= @site.url %>/images/gallery/02.jpg" alt=""/></a>

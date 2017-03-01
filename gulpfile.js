@@ -10,6 +10,7 @@ var paths = {
         src:[
             'src/files/js/vendor/modernizr.custom.17475.js',
             'src/files/js/vendor/jquery.easing.min.js',
+            'src/files/js/vendor/owl.carousel.min.js',
             'src/files/js/vendor/smoothscroll.js',
             'src/files/js/vendor/imagesloaded.pkgd.min.js',
             'src/files/js/vendor/jquery.mousewheel.js',

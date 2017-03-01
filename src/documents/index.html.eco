@@ -15,10 +15,18 @@ phoneHref:  "tel:+381633558869"
     <%- @partial('sections/section-05') %>
 </section>
 
-<%- @partial('modals/meni-modal-01') %>
-<%- @partial('modals/meni-modal-02') %>
-<%- @partial('modals/meni-modal-03') %>
-<%- @partial('modals/meni-modal-04') %>
+
+<div id="meni-modal-01" class="mfp-hide">
+    <div class="meni-slider">
+        <%- @partial('modals/meni-modal-01') %>
+        <%- @partial('modals/meni-modal-02') %>
+        <%- @partial('modals/meni-modal-03') %>
+        <%- @partial('modals/meni-modal-04') %>
+    </div>
+</div>
+
+
+
 
 
 
