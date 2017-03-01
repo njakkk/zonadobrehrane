@@ -56,10 +56,13 @@ function defaultInlinePopup(){
         removalDelay: 300,
         callbacks: {
             open: function() {
-                $('html').addClass('popup-open');
+                $('body').addClass('popup-open');
+
             },
             close: function() {
-                $('html').removeClass('popup-open');
+                $('body').removeClass('popup-open');
+                window.location.hash = '';
+                window.location.hash.replace('#', '');
             }
         }
     });
@@ -71,7 +74,28 @@ function defaultInlinePopup(){
 
     trigger.on('click',function(){
         var slideNum = $(this).attr('data-slide');
-        $('.meni-slider').trigger('owl.jumpTo', slideNum - 1)
+        var pageName = $(this).attr('data-hash');
+        $('.meni-slider').trigger('owl.jumpTo', slideNum - 1);
+        location.hash = pageName;
+
+    });
+
+    function openModalByUrl(){
+        if(window.location.hash !== ''){
+            var pageName = location.hash.split('#')[1];
+            $('[data-hash="' + pageName + '"]').trigger('click');
+        }
+    }
+    openModalByUrl();
+
+
+    $(window).on("hashchange",function (){
+
+        openModalByUrl();
+
+        if(location.hash === ''){
+            $.magnificPopup.close()
+        }
     });
 }
 
