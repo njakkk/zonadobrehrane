@@ -8,7 +8,14 @@
   &:before{
     @include noiz;
   }
+
+  .owl-wrapper-outer.autoHeight{
+    transition: none;
+    -webkit-transition: none;
+  }
 }
+
+
 //  buttons
 .owl-buttons{
   color: $light-grey;
@@ -74,4 +81,28 @@
   content: '\e409';
 }
 
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+@media screen and (max-width: $smallDesktop){
+  .meni-slider{
+    width: 90vw;
+  }
+}
+
+
+@media screen and (max-width: $tabLandscape){
+  .meni-slider{
+    width: 95vw;
+  }
+}
+
+
+@media screen and (max-width: $tabPortrait)  {
+  .owl-buttons{
+    display: none !important;
+  }
+
+}
 

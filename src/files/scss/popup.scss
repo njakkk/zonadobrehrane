@@ -26,24 +26,26 @@
 }
 
 /* content at start */
-.mfp-fade.mfp-wrap {
+
+
+.mfp-fade.mfp-wrap .mfp-content{
   opacity: 0;
-  transform: scale(0.8);
-  -webkit-transform: scale(0.8);
+  transform: scale(.8) translateY(-200px);
+  -webkit-transform: scale(.8) translateY(-200px);
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
 }
 /* content animate it */
-.mfp-fade.mfp-wrap.mfp-ready {
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content{
   opacity: 1;
-  transform: scale(1);
-  -webkit-transform: scale(1);
+  transform: none;
+  -webkit-transform: none;
 }
 /* content animate out */
-.mfp-fade.mfp-wrap.mfp-removing {
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content{
   opacity: 0;
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+  transform: scale(.8) translateY(200px);
+  -webkit-transform: scale(.8) translateY(200px);
 }
 /*-------------------------------------------------*/
 
@@ -137,18 +139,19 @@
 }
 
 
-/* default popup*/
 
 
-//mobile////////////////////////////////////////////////////////////////////////////////
-@media screen and (max-width: $tabLandscape)  {
+//--------------------------------------------------------------------------------------------------------------------------------------------------//
 
-}
 
 @media screen and (max-width: $tabPortrait)  {
 
   .mfp-close-btn-in .mfp-close{
     display: block;
+  }
+
+  .mfp-arrow{
+    display: none !important;
   }
 
 }
