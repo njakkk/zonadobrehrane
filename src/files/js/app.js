@@ -262,7 +262,7 @@ function meniSlider(){
             stopOnHover:true,
             autoHeight : true,
             addClassActive: true,
-            touchDrag: true,
+            touchDrag: false,
             mouseDrag: false,
             rewindNav : true,
             //Basic Speeds
