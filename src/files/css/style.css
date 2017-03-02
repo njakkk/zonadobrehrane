@@ -2797,7 +2797,8 @@ body.popup-open .site-wrapper {
 .content-wrapper {
   max-width: 80%;
   margin: auto;
-  display: inherit; }
+  display: block;
+  position: relative; }
 
 [section] {
   min-height: 100vh;

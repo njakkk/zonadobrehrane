@@ -49,7 +49,8 @@ body.popup-open{
 .content-wrapper {
   max-width: 80%;
   margin: auto;
-  display: inherit;
+  display: block;
+  position: relative;
 }
 
 [section]{
