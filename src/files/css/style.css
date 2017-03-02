@@ -2747,13 +2747,9 @@ body {
   overflow: hidden;
   overflow-y: auto; }
 
-html.popup-open {
-  overflow: hidden; }
-  html.popup-open body {
-    overflow: hidden; }
-  html.popup-open .site-wrapper {
-    filter: blur(3px);
-    -webkit-filter: blur(3px); }
+body.popup-open .site-wrapper {
+  filter: blur(3px);
+  -webkit-filter: blur(3px); }
 
 .site-wrapper {
   width: 100%;
@@ -2876,6 +2872,9 @@ h4 {
     -ms-transform: scale(0.8, 0.8); } }
 
 @media screen and (max-width: 1200px) {
+  body.popup-open {
+    overflow: hidden;
+    height: 100%; }
   .parallax-layer {
     display: none; }
   .scroll-show {
