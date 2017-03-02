@@ -21,28 +21,28 @@
                     <div class="spacer tc"><span></span></div>
                 </div>
                 <div class="clearfix meni tc">
-                    <a class="column-4 meni-item" href="#meni-modal" data-slide="1" data-hash="meni" data-inline-popup tabindex="2">
+                    <a class="column-4 meni-item" href="#meni-modal" data-slide="1" data-hash="meni" data-meni-modal tabindex="2">
                         <div class="pict">
                             <i class="icon-chicken"></i>
                             <%- @include('includes/svg-shape.html') %>
                         </div>
                         <h2>Piletina</h2>
                     </a>
-                    <a class="column-4 meni-item" href="#meni-modal" data-slide="2" data-hash="meni" data-inline-popup tabindex="3">
+                    <a class="column-4 meni-item" href="#meni-modal" data-slide="2" data-hash="meni" data-meni-modal tabindex="3">
                         <div class="pict">
                             <i class="icon-pizza"></i>
                             <%- @include('includes/svg-shape.html') %>
                         </div>
                         <h2>Pizza</h2>
                     </a>
-                    <a class="column-4 meni-item" href="#meni-modal" data-slide="3" data-hash="meni" data-inline-popup tabindex="4">
+                    <a class="column-4 meni-item" href="#meni-modal" data-slide="3" data-hash="meni" data-meni-modal tabindex="4">
                         <div class="pict">
                             <i class="icon-pancake"></i>
                             <%- @include('includes/svg-shape.html') %>
                         </div>
                         <h2>Palačinke</h2>
                     </a>
-                    <a class="column-4 meni-item" href="#meni-modal" data-slide="4" data-hash="meni" data-inline-popup tabindex="5">
+                    <a class="column-4 meni-item" href="#meni-modal" data-slide="4" data-hash="meni" data-meni-modal tabindex="5">
                         <div class="pict">
                             <i class="icon-sandwich"></i>
                             <%- @include('includes/svg-shape.html') %>

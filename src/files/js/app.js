@@ -1,22 +1,23 @@
-function updateNav() {
-    var currentSection = $('[section].current');
-    var data = currentSection.attr('data-scroll-target');
-    var $index = $('[data-scroll-target].current').index() + 1;
+function updateNav(menu, currentSection, data, index) {
+    menu = $('.main-menu');
+    currentSection = $('[section].current');
+    data = currentSection.attr('data-scroll-target');
+    index = $('[data-scroll-target].current').index() + 1;
 
-    $('.main-menu li').removeClass('active');
-    $('.main-menu li[data-scroll-trigger= ' + data + ']').addClass('active');
+    menu.find('li').removeClass('active');
+    menu.find('li[data-scroll-trigger= ' + data + ']').addClass('active');
 
-    $('.main-menu').removeClass().addClass('main-menu');
-    $('.main-menu').addClass("active-" + $index + "");
+    menu.removeClass().addClass('main-menu');
+    menu.addClass("active-" + index + "");
 }
 
-function scrollTrigger() {
-    var speed = 700;
-    var easing = 'swing';
-    var $scrollTrigger = $('[data-scroll-trigger]');
+function scrollTrigger(speed, easing, scrollTrigger) {
+    speed = 700;
+    easing = 'swing';
+    scrollTrigger = $('[data-scroll-trigger]');
 
 
-    $scrollTrigger.click(function(e) {
+    scrollTrigger.click(function(e) {
         var $data = $(this).attr("data-scroll-trigger");
         var $goTo = $(document).find('[data-scroll-target= ' + $data + ']');
 
@@ -29,10 +30,10 @@ function scrollTrigger() {
     });
 }
 
-function identifySections() {
-    var $sections = $('[section]');
+function identifySections(section) {
+    section = $('[section]');
 
-    $sections.viewportChecker({
+    section.viewportChecker({
         classToAdd: 'current',
         offset: '40%',
         repeat: true,
@@ -42,9 +43,9 @@ function identifySections() {
     });
 }
 
-function defaultInlinePopup(){
+function maniModal(trigger){
 
-    var trigger = $('[data-inline-popup]');
+    trigger = $('[data-meni-modal]');
 
 
     trigger.magnificPopup({
@@ -65,23 +66,16 @@ function defaultInlinePopup(){
             }
         }
     });
-
-    $('[data-close-popup]').click( function(e){
-        e.preventDefault();
-        $.magnificPopup.close();
-    });
-
-    trigger.on('click',function(){
-        var slideNum = $(this).attr('data-slide');
-        var pageName = $(this).attr('data-hash');
+    trigger.on('click',function(slideNum, pageName){
+        slideNum = $(this).attr('data-slide');
+        pageName = $(this).attr('data-hash');
         $('.meni-slider').trigger('owl.jumpTo', slideNum - 1);
         location.hash = pageName;
-
     });
 
-    function openModalByUrl(){
+    function openModalByUrl(pageName){
         if(window.location.hash !== ''){
-            var pageName = location.hash.split('#')[1];
+            pageName = location.hash.split('#')[1];
             $('[data-hash="' + pageName + '"]').trigger('click');
         }
     }
@@ -98,26 +92,8 @@ function defaultInlinePopup(){
     });
 }
 
-function flexGalery() {
-    var $container = $('[data-gallery]');
-    var $el = $container.find('.item');
-    $container.imagesLoaded(function () {
-        $el.each(function () {
-            var $el = $(this);
-            var $img = $el.find('img');
-            var $imgW = $img.width();
-            var $imgH = $img.height();
-            $el.attr('data-w', $imgW).attr('data-h', $imgH);
-        });
-        $container.flexImages({
-            rowHeight: 240,
-            truncate: false // cut incomplete last row
-        });
-    });
-}
-
-function imageGallery(){
-    var trigger = $('.image-gallery');
+function imageGallery(trigger){
+    trigger = $('.image-gallery');
 
     trigger.magnificPopup({
         type: 'image',
@@ -127,7 +103,7 @@ function imageGallery(){
 
         zoom: {
             enabled: true,
-          duration: 500,
+            duration: 500,
             easing: 'ease-in-out',
             opener: function(openerElement) {
                 return openerElement.is('img') ? openerElement : openerElement.find('img');
@@ -150,6 +126,24 @@ function imageGallery(){
 
     trigger.on('click',function(){
         location.hash = 'gallery';
+    });
+}
+
+function flexGalery(container, element) {
+    container = $('[data-gallery]');
+     element = container.find('.item');
+    container.imagesLoaded(function () {
+        element.each(function (el, img, imgW, imgH) {
+            el = $(this);
+            img = el.find('img');
+            imgW = img.width();
+            imgH = img.height();
+            el.attr('data-w', imgW).attr('data-h', imgH);
+        });
+        container.flexImages({
+            rowHeight: 240,
+            truncate: false // cut incomplete last row
+        });
     });
 }
 
@@ -314,9 +308,9 @@ $(document).ready( function() {
     meniSlider();
     scrollTrigger();
     identifySections();
-    defaultInlinePopup();
-    flexGalery();
+    maniModal();
     imageGallery();
+    flexGalery();
 
     $('.bg').bgImage();
     $('.vertical-center').verticalCenter();
