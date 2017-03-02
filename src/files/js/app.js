@@ -266,8 +266,8 @@ function meniSlider(){
             dots: false,
             navText : ["", ""],
             autoPlay: false,
-            animateOut: 'bounceOutLeft',
-            animateIn: 'bounceInRight',
+            animateIn: 'slideInUp',
+            animateOut: 'slideOutDown',
             autoHeight : true,
             addClassActive: true
         });
