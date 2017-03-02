@@ -43,9 +43,9 @@ function identifySections(section) {
     });
 }
 
-function maniModal(trigger){
+function maniModal(){
 
-    trigger = $('[data-meni-modal]');
+    var trigger = $('[data-meni-modal]');
 
 
     trigger.magnificPopup({
@@ -66,12 +66,17 @@ function maniModal(trigger){
             }
         }
     });
-    trigger.on('click',function(slideNum, pageName){
-        slideNum = $(this).attr('data-slide');
-        pageName = $(this).attr('data-hash');
-        $('.meni-slider').trigger('owl.jumpTo', slideNum - 1);
-        location.hash = pageName;
+    trigger.each(function(self){
+        self = $(this);
+        self.on('click',function(pageName){
+            var slideNum = $(this).attr('data-slide') - 1;
+            pageName = $(this).attr('data-hash');
+            $('.meni-slider').trigger('to.owl.carousel', [slideNum, 0]);
+            location.hash = pageName;
+            console.log(slideNum);
+        });
     });
+
 
     function openModalByUrl(pageName){
         if(window.location.hash !== ''){
@@ -84,7 +89,7 @@ function maniModal(trigger){
 
     $(window).on("hashchange",function (){
 
-        openModalByUrl();
+//        openModalByUrl();
 
         if(location.hash === ''){
             $.magnificPopup.close()
@@ -253,30 +258,27 @@ function meniSlider(){
 
     slider.each(function () {
         $(this).owlCarousel({
-            singleItem:true,
-            navigation : true,
-            pagination: false,
-            navigationText : ["", ""],
-            transitionStyle: "topSlide",
-            autoPlay: false,
-            stopOnHover:true,
-            autoHeight : true,
-            addClassActive: true,
+            items:1,
+            loop: true,
             touchDrag: false,
             mouseDrag: false,
-            rewindNav : true,
-            //Basic Speeds
-            slideSpeed : 800,
-            rewindSpeed : 2000
+            nav: true,
+            dots: false,
+            navText : ["", ""],
+            autoPlay: false,
+            animateOut: 'bounceOutLeft',
+            animateIn: 'bounceInRight',
+            autoHeight : true,
+            addClassActive: true
         });
     });
 
     $(document).keyup(function (e) {
         if (e.keyCode == 37) {
-            slider.trigger('owl.prev')
+            slider.trigger('prev.owl.carousel')
         }
         if (e.keyCode == 39) {
-            slider.trigger('owl.next')
+            slider.trigger('next.owl.carousel')
         }
         e.preventDefault();
     });

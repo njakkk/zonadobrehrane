@@ -13,7 +13,7 @@
 
 
 //  buttons
-.owl-buttons{
+.owl-nav{
   color: $light-grey;
   position: fixed;
   top: 50%;
@@ -23,7 +23,7 @@
   margin-top: -$ui-el-size/2;
   @include clearfix;
 }
-.owl-buttons > div {
+.owl-nav > div {
   display: block;
   width: $ui-el-size;
   height: $ui-el-size;
@@ -44,35 +44,38 @@
     text-align: center;
     @include basicTransition(0.4s);
   }
+  &.disabled{
+    display: none;
+  }
 }
-.owl-buttons > div:hover{
+.owl-nav > div:hover{
   border-color: $white;
   background: rgba(0,0,0,0.1);
   &:before{
     margin-top: -$ui-el-size;
   }
 }
-.owl-buttons > div:before  {
+.owl-nav > div:before  {
   opacity: 0.4;
 }
 
-.owl-buttons > div.owl-prev{
+.owl-nav > div.owl-prev{
   float: left;
   margin-left: $spacing;
 }
 
-.owl-buttons > div.owl-next{
+.owl-nav > div.owl-next{
   float: right;
   margin-right: $spacing;
 }
 
-.owl-buttons > div.owl-prev:before,
-.owl-buttons > div.owl-prev:after
+.owl-nav > div.owl-prev:before,
+.owl-nav > div.owl-prev:after
 {
   content: '\e408';
 }
-.owl-buttons > div.owl-next:before,
-.owl-buttons > div.owl-next:after
+.owl-nav > div.owl-next:before,
+.owl-nav > div.owl-next:after
 {
   content: '\e409';
 }
@@ -96,7 +99,7 @@
 
 
 @media screen and (max-width: $tabPortrait)  {
-  .owl-buttons{
+  .owl-nav{
     display: none !important;
   }
 
