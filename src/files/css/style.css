@@ -2721,6 +2721,44 @@ table {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+@-webkit-keyframes bounceInDownSmall {
+  from, 60%, 75%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  to {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes bounceInDownSmall {
+  from, 60%, 75%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  to {
+    -webkit-transform: none;
+    transform: none; } }
+
 * {
   box-sizing: border-box; }
 
@@ -3102,15 +3140,49 @@ b {
   .phone:hover, .phone:focus {
     color: #ffe158; }
 
+.down {
+  cursor: pointer; }
+  .down i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 46px;
+    margin-left: -22px;
+    -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    /* custom */ }
+  .down span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 7.2pt;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-family: "Eveleth", sans-serif;
+    font-weight: 100;
+    opacity: 0.4; }
+  .down:hover i {
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-name: bounceInDownSmall;
+    animation-name: bounceInDownSmall; }
+
+@media screen and (max-width: 1400px) {
+  .big-padding {
+    padding: 8vmin; }
+  .big-padding-x {
+    padding-left: 8vmin;
+    padding-right: 8vmin; }
+  .big-padding-y {
+    padding-top: 8vmin;
+    padding-bottom: 8vmin; } }
+
 @media screen and (max-width: 1200px) {
   .vertical-center {
     top: 0;
     margin-top: 8.8vmin;
     margin-bottom: 8.8vmin; }
   .vh {
-    min-height: 10px; } }
-
-@media screen and (max-width: 1024px) {
+    min-height: 10px; }
   .big-padding {
     padding: 5vmin; }
   .big-padding-x {
@@ -3118,7 +3190,9 @@ b {
     padding-right: 5vmin; }
   .big-padding-y {
     padding-top: 5vmin;
-    padding-bottom: 5vmin; }
+    padding-bottom: 5vmin; } }
+
+@media screen and (max-width: 1024px) {
   .spaced-caption {
     font-size: 28px;
     letter-spacing: 0.3em;
@@ -3837,7 +3911,7 @@ img.mfp-img {
 
 @media screen and (max-width: 1200px) {
   .meni-slider {
-    width: 95vw; } }
+    width: 100vw; } }
 
 @media screen and (max-width: 1024px) {
   .owl-nav {
@@ -3901,8 +3975,7 @@ img.mfp-img {
   position: relative;
   display: inline-block;
   width: auto;
-  min-width: 250px;
-  max-width: 95%; }
+  min-width: 250px; }
 
 .mfp-content {
   overflow: hidden;
@@ -4270,6 +4343,7 @@ img.home-logo {
       left: 50%;
       text-align: center;
       font-size: 10vmin;
+      z-index: 1;
       transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
@@ -4277,8 +4351,7 @@ img.home-logo {
       -webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
       -moz-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
       transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-      /* custom */
-      z-index: 1; }
+      /* custom */ }
   .meni-item h2 {
     font-family: "Eveleth", sans-serif;
     font-weight: 100;
@@ -4333,7 +4406,7 @@ img.home-logo {
   float: left;
   width: 60%;
   padding: 4.4vmin;
-  max-height: 90vh;
+  max-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden; }
 
@@ -4348,6 +4421,8 @@ img.home-logo {
     overflow: hidden; }
   .meni-list-item:after {
     clear: both; }
+  .meni-list-item:last-child {
+    margin-bottom: 0; }
   .meni-list-item article {
     position: relative;
     zoom: 1; }
@@ -4399,7 +4474,7 @@ img.home-logo {
 
 @media screen and (max-width: 1200px) {
   .meni-modal {
-    width: 95vw; }
+    width: 100vw; }
   .meni-title {
     margin-top: 0; }
   .meni-modal-img {

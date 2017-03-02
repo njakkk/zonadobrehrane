@@ -7,27 +7,117 @@
     </div>
     <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <h4>Rfgerkjrelkje erkje</h4>
+            <h4>Porketa</h4>
             <article>
-                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <p><span>Začinjeno svinjsko meso, ljubičasti luk, paradajz, svež peršun i orijentalni dresing</span></p>
                 <h5>360,00</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rfgerkjrelkje erkje</h4>
+            <h4>Greek special</h4>
             <article>
-                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <p><span>Halloumi sir, njeguška kobasica, paprike, paradajz i masline</span></p>
                 <h5>360,00</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rfgerkjrelkje erkje</h4>
+            <h4>Fiorentina</h4>
             <article>
-                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <p><span>Sir, pančeta, sušeni paradajz, pesto od spanaća, bosiljak</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Pizza Carbonara</h4>
+            <article>
+                <p><span>Carbonara sos, šampinjoni, panceta, baby mozzarella</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Calzone</h4>
+            <article>
+                <p><span>Chicago testo, sir, šunka, panceta, kisela pavlaka, šampinjoni</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Inverno</h4>
+            <article>
+                <p><span>Sir, šunka, pepperoni, BBQ sos, paprika, masline, šampinjoni, luk, čedar sir</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Verona Nero</h4>
+            <article>
+                <p><span>Sir, panceta, gorgonzola, spanać</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Black Delight</h4>
+            <article>
+                <p><span>Sir, pršuta, cherry paradajz, sušeni paradajz, feta, paprika</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Pomodorini</h4>
+            <article>
+                <p><span>Tri vrste paradajza, Baby Mozzarella, rukola</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Monte verde</h4>
+            <article>
+                <p><span>Sir, kozji sir, panceta, šampinjoni, rukola</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Toscana</h4>
+            <article>
+                <p><span>Sir, pršuta, rukola, parmezan</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Mediteran</h4>
+            <article>
+                <p><span>Sir, šunka, šampinjoni, paprika, feta, paradajz, masline</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Začinjena piletina</h4>
+            <article>
+                <p><span>Sir, piletina, šampinjoni, luk, tikvice</span></p>
                 <h5>360,00</h5>
                 <aside></aside>
             </article>

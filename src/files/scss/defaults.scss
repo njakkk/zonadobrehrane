@@ -138,10 +138,55 @@ b{
   }
 }
 
+.down{
+  cursor: pointer;
+  i{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 46px;
+    margin-left: -22px;
+    @include basicTransition(0.4s);
+  }
+  span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 7.2pt;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-family: $thin;
+    font-weight: 100;
+    opacity: 0.4;
+  }
+  &:hover{
+    i{
+      -webkit-animation-duration: 0.6s;
+      animation-duration: 0.6s;
+      -webkit-animation-name: bounceInDownSmall;
+      animation-name: bounceInDownSmall;
+    }
+  }
+}
+
 
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------//
 
+@media screen and (max-width: $smallDesktop){
+  .big-padding{
+    padding: 8vmin;
+  }
+
+  .big-padding-x{
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+  }
+
+  .big-padding-y{
+    padding-top: 8vmin;
+    padding-bottom: 8vmin;
+  }
+
+}
 
 @media screen and (max-width: $tabLandscape){
 
@@ -154,8 +199,6 @@ b{
   .vh{
     min-height: 10px;
   }
-
-}@media screen and (max-width: $tabPortrait){
 
   .big-padding{
     padding: 5vmin;
@@ -170,6 +213,10 @@ b{
     padding-top: 5vmin;
     padding-bottom: 5vmin;
   }
+
+}
+
+@media screen and (max-width: $tabPortrait){
 
   .spaced-caption{
     font-size: 28px;

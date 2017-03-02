@@ -16,7 +16,7 @@
 
 
         <div class="meni-list-item">
-            <h4>Eurokrem classic</h4>
+            <h4>Eurokrem klasik</h4>
             <article>
                 <p><span>Eurokrem & plazma</span></p>
                 <h5>200,00</h5>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="meni-list-item">
-            <h4>Nutella classic</h4>
+            <h4>Nutella klasik</h4>
             <article>
                 <p><span>Nutella & plazma</span></p>
                 <h5>250,00</h5>
@@ -59,22 +59,39 @@
         <!-------------------------------------------->
 
         <div class="meni-list-item">
-            <h4>Rfgerkjrelkje erkje</h4>
+            <h4>Pršuta klasik</h4>
             <article>
-                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <p><span>Pršuta, pavlaka, kačkavalj</span></p>
                 <h5>360,00</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rfgerkjrelkje erkje</h4>
+            <h4>Pršuta strong</h4>
             <article>
-                <p><span>rfgerkjrelkje erkje ke alalal dsjdlsekfdjsl rfgerkjrelkje erkje ke</span></p>
+                <p><span>Pršuta, suvi vrat, pavlaka, kačkavalj, tartar</span></p>
                 <h5>360,00</h5>
                 <aside></aside>
             </article>
         </div>
 
+        <div class="meni-list-item">
+            <h4>Suvi vrat</h4>
+            <article>
+                <p><span>Suvi vrat, pavlaka, kačkavalj</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Kulen</h4>
+            <article>
+                <p><span>Kulen, pavlaka, kačkavalj</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
     </div>
 </section>

@@ -24,13 +24,15 @@
             <div class="column-2 big-padding-x vh">
                 <div class="vertical-center">
                     <img class="home-logo" src="<%= @site.url %>/images/logo.svg" alt=""/>
-                    <h1 class="spaced-caption">Dobro došli u zonu dobre hrane!</h1>
+                    <h1 class="spaced-caption"><%= @document.homeSectionTitle %></h1>
                     <div class="spacer"><span></span></div>
-                    <p>Fusce tempus tortor elit, ac efficitur sapien tincidunt tristique. Proin pulvinar feugiat sem id porta. Nullam rhoncus faucibus odio ac porta.</p>
+                    <p><%= @document.homeSectionDescription %></p>
                     <a class="phone" href="<%= @document.phoneHref %>" tabindex="1">
                         <i class="icon-phone"></i>
                         <span><%= @document.phone %></span>
                     </a>
+                    <br/>
+                    <a class="down" href="#" data-scroll-trigger="02"> <i class="icon-down-thin animated"></i> <span>pogledaj meni</span></a>
                 </div>
             </div>
         </div>

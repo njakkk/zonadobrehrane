@@ -35,9 +35,9 @@
       left: 50%;
       text-align: center;
       font-size: 10vmin;
+      z-index: 1;
       @include translate(-50%, -50%);
       @include basicTransition(0.5s);
-      z-index: 1;
     }
   }
   h2{
@@ -110,7 +110,7 @@
   float: left;
   width: 60%;
   padding: $spacing*2;
-  max-height: 90vh;
+  max-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -119,6 +119,10 @@
   margin-bottom: 40px;
   position: relative;
   @include clearfix;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
   article{
     position: relative;
     @include clearfix;
@@ -179,7 +183,7 @@
 
 @media screen and (max-width: $tabLandscape){
   .meni-modal{
-    width: 95vw;
+    width: 100vw;
   }
 
   .meni-title{
