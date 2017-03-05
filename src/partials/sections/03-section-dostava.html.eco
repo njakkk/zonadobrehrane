@@ -14,7 +14,7 @@
                      data-2500="right:-20px; top: -200px;"
                         />
 
-                <div class="vertical-center">
+                <div class="vertical-center tl">
                     <h1 class="spaced-caption"><%= @document.deliverySectionTitle %></h1>
                     <div class="spacer"><span></span></div>
                     <p><%= @document.deliverySectionDescription %></p>

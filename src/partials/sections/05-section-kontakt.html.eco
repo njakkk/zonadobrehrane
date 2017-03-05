@@ -1,6 +1,6 @@
 
 <section section class="map-section" data-scroll-target="05">
-    <div class="contact-info bg-light vertical-center z1">
+    <div class="contact-info bg-light vertical-center z1 tl">
         <h1>Gde se nalazimo?</h1>
         <p><b>Cara Dušana 60</b>, Beograd, Stari grad -  ugao Cara Dušana i kaperan Mišine</p>
         <div class="spacer"><span></span></div>

@@ -47,6 +47,8 @@ b{
 
 .vh{
   min-height: $vh;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .absolute{

@@ -2796,15 +2796,16 @@ body.popup-open .site-wrapper {
 
 .content-wrapper {
   max-width: 80%;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   position: relative; }
 
 [section] {
   min-height: 100vh;
   position: relative;
-  display: table;
-  width: 100%; }
+  display: block;
+  width: 100%;
+  text-align: center; }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
@@ -3051,7 +3052,9 @@ b {
   top: 50vh; }
 
 .vh {
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: inline-block;
+  margin: 0 auto; }
 
 .absolute {
   position: absolute; }
