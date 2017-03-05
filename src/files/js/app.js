@@ -301,6 +301,11 @@ $(document).ready( function() {
         s.destroy();
     }
 
+    $(".scrollbar").mCustomScrollbar({
+        theme:"minimal-dark",
+        scrollInertia: 300
+    });
+
     $('.home-section').imagesLoaded( function() {
         setTimeout(function() {
             $('[site-loader]').fadeOut(500);

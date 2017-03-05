@@ -12,6 +12,7 @@ var paths = {
             'src/files/js/vendor/jquery.easing.min.js',
             'src/files/js/vendor/owl.carousel.min.js',
             'src/files/js/vendor/smoothscroll.js',
+            'src/files/js/vendor/jquery.mCustomScrollbar.concat.min.js',
             'src/files/js/vendor/imagesloaded.pkgd.min.js',
             'src/files/js/vendor/jquery.mousewheel.js',
             'src/files/js/vendor/jquery.viewportchecker.min.js',

@@ -5,7 +5,7 @@
     <div class="meni-modal-title">
         <h1>Sendviči</h1>
     </div>
-    <div class="meni-modal-txt">
+    <div class="meni-modal-txt scrollbar">
         <div class="meni-list-item">
             <h4>Sendvič šunka</h4>
             <article>

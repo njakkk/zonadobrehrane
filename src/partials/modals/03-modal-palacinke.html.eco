@@ -5,7 +5,7 @@
     <div class="meni-modal-title">
         <h1>Palačinke</h1>
     </div>
-    <div class="meni-modal-txt">
+    <div class="meni-modal-txt scrollbar">
 
         <!-------------------------------------------->
         <div class="tl">
