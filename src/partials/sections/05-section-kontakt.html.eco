@@ -2,7 +2,7 @@
 <section section class="map-section" data-scroll-target="05">
     <div class="contact-info bg-light vertical-center z1">
         <h1>Gde se nalazimo?</h1>
-        <p><b>Cara Dušana 60</b> - ugao Cara Dušana i Dobrovoljačke</p>
+        <p><b>Cara Dušana 60</b>, Beograd, Stari grad -  ugao Cara Dušana i kaperan Mišine</p>
         <div class="spacer"><span></span></div>
 
         <h1>Do kada radimo</h1>
@@ -19,7 +19,7 @@
         </a>
     </div>
 
-    <div id="location" class="location-map" data-latitude="44.849682" data-longitude="20.401198"></div>
+    <div id="location" class="location-map" data-latitude="44.822145" data-longitude="20.462297"></div>
 
     <div class="map-nav">
         <button class="" id="map-zoomin"><i class="icon-add"></i></button>

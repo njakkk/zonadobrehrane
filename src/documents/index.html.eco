@@ -8,7 +8,7 @@ homeSectionTitle: "Dobro došli u zonu dobre hrane!"
 homeSectionDescription: "Vodimo računa na ono što ulazi u našu kuhinju i na ono što izlazi iz nje. Mi smo zona dobre hrane u tvom kraju."
 
 deliverySectionTitle: "Stižemo do tebe pre nego što ogladniš!"
-deliverySectionDescription: "Zato što nam je bitno nam je da je da je naša hrana uvek sveža i topla kad stigne kod tebe."
+deliverySectionDescription: "Zato što nam je bitno da je naša hrana uvek sveža i topla kad stigne kod tebe."
 ---
 
 <%- @partial('main-menu') %>
