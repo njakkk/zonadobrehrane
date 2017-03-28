@@ -14,9 +14,9 @@
     <!-------------------------------->
 
     <div class="content-wrapper">
-        <div class="vh">
+        <div class="vh" data-300-top="transform: scale(0.6);" data-top="transform: scale(1);">
             <div class="vertical-center">
-                <div class="row" data-0="transform: scale(0.3);" data-300-center="transform: scale(1);">
+                <div class="row">
                     <div class="meni-title">
                         <h1 class="title">meni</h1>
                         <div class="spacer tc"><span></span></div>
