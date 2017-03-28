@@ -1,8 +1,8 @@
 ---
 layout: "main"
 
-phone:  "063 355 88 69"
-phoneHref:  "tel:+381633558869"
+phone:  "064 000 72 77"
+phoneHref:  "tel:+381640007277"
 
 homeSectionTitle: "Dobro došli u zonu dobre hrane!"
 homeSectionDescription: "Vodimo računa na ono što ulazi u našu kuhinju i na ono što izlazi iz nje. Mi smo zona dobre hrane u tvom kraju."
@@ -25,10 +25,14 @@ deliverySectionDescription: "Zato što nam je bitno da je naša hrana uvek svež
 
 <div id="meni-modal" class="mfp-hide">
     <div class="meni-slider">
-        <%- @partial('modals/01-modal-piletina') %>
-        <%- @partial('modals/02-modal-pizza') %>
-        <%- @partial('modals/03-modal-palacinke') %>
+        <%- @partial('modals/01-modal-rostilj') %>
+        <%- @partial('modals/02-modal-piletina') %>
+        <%- @partial('modals/03-modal-obroci') %>
         <%- @partial('modals/04-modal-sendvici') %>
+        <%- @partial('modals/05-modal-salate') %>
+        <%- @partial('modals/06-modal-pizza') %>
+        <%- @partial('modals/07-modal-palacinke') %>
+        <%- @partial('modals/08-modal-ostalo') %>
     </div>
 </div>
 

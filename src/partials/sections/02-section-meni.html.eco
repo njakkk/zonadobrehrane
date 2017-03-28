@@ -16,39 +16,67 @@
     <div class="content-wrapper">
         <div class="vh">
             <div class="vertical-center">
-                <div class="row" data-0="transform: scale(0.3);" data-200-center="transform: scale(1);">
+                <div class="row" data-0="transform: scale(0.3);" data-300-center="transform: scale(1);">
                     <div class="meni-title">
                         <h1 class="title">meni</h1>
                         <div class="spacer tc"><span></span></div>
                     </div>
                     <div class="clearfix meni tc">
-                        <a class="column-4 meni-item" href="#meni-modal" data-slide="1" data-hash="meni" data-meni-modal tabindex="2">
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="1" data-hash="meni" data-meni-modal>
+                            <div class="pict">
+                                <i class="icon-bbq"></i>
+                                <%- @include('includes/svg-shape.html') %>
+                            </div>
+                            <h2>Roštilj</h2>
+                        </a>
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="2" data-hash="meni" data-meni-modal>
                             <div class="pict">
                                 <i class="icon-chicken"></i>
                                 <%- @include('includes/svg-shape.html') %>
                             </div>
                             <h2>Piletina</h2>
                         </a>
-                        <a class="column-4 meni-item" href="#meni-modal" data-slide="2" data-hash="meni" data-meni-modal tabindex="3">
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="3" data-hash="meni" data-meni-modal>
+                            <div class="pict">
+                                <i class="icon-meal"></i>
+                                <%- @include('includes/svg-shape.html') %>
+                            </div>
+                            <h2>Komplet obroci</h2>
+                        </a>
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="4" data-hash="meni" data-meni-modal>
+                            <div class="pict">
+                                <i class="icon-sandwich"></i>
+                                <%- @include('includes/svg-shape.html') %>
+                            </div>
+                            <h2>Sendviči</h2>
+                        </a>
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="5" data-hash="meni" data-meni-modal>
+                            <div class="pict">
+                                <i class="icon-salad"></i>
+                                <%- @include('includes/svg-shape.html') %>
+                            </div>
+                            <h2>Obrok salate</h2>
+                        </a>
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="6" data-hash="meni" data-meni-modal>
                             <div class="pict">
                                 <i class="icon-pizza"></i>
                                 <%- @include('includes/svg-shape.html') %>
                             </div>
                             <h2>Pizza</h2>
                         </a>
-                        <a class="column-4 meni-item" href="#meni-modal" data-slide="3" data-hash="meni" data-meni-modal tabindex="4">
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="7" data-hash="meni" data-meni-modal>
                             <div class="pict">
                                 <i class="icon-pancake"></i>
                                 <%- @include('includes/svg-shape.html') %>
                             </div>
                             <h2>Palačinke</h2>
                         </a>
-                        <a class="column-4 meni-item" href="#meni-modal" data-slide="4" data-hash="meni" data-meni-modal tabindex="5">
+                        <a class="column-4 meni-item" href="#meni-modal" data-slide="8" data-hash="meni" data-meni-modal>
                             <div class="pict">
-                                <i class="icon-sandwich"></i>
+                                <i class="icon-drink-addons"></i>
                                 <%- @include('includes/svg-shape.html') %>
                             </div>
-                            <h2>Sendviči</h2>
+                            <h2>Piće i dodaci</h2>
                         </a>
                     </div>
                 </div>

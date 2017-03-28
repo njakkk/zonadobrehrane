@@ -13,7 +13,7 @@
   .pict{
     position: relative;
     svg{
-      height: 23vmin;
+      height: 19vmin;
       width: auto;
       min-height: 105px;
       margin: $spacing 0;
@@ -34,7 +34,7 @@
       top: 50%;
       left: 50%;
       text-align: center;
-      font-size: 10vmin;
+      font-size: 8.5vmin;
       z-index: 1;
       @include translate(-50%, -50%);
       @include basicTransition(0.5s);
@@ -43,8 +43,10 @@
   h2{
     font-family: $thin;
     font-weight: 100;
-    font-size: 1.1em;
+    font-size: .9em;
+    line-height: 1.3em;
     letter-spacing: 0.2em;
+    opacity: 0.4;
   }
 }
 
@@ -62,6 +64,9 @@
     i{
       color: $main;
     }
+  }
+  h2{
+    opacity: 1;
   }
 }
 
@@ -116,7 +121,7 @@
 }
 
 .meni-list-item{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
   @include clearfix;
 
@@ -126,18 +131,32 @@
   article{
     position: relative;
     @include clearfix;
+    h4{
+      float: left;
+      position: relative;
+      z-index: 1;
+      opacity: 1;
+      line-height: 20px;
+      max-width: 80%;
+      span{
+        background: $dark;
+      }
+    }
   }
 
   h4{
     clear: both;
+    font-size: 110%;
+    margin-bottom: 5px;
   }
   p{
     float: left;
-    font-size: 0.8em;
+    font-size: 13px;
+    font-weight: 400;
     position: relative;
     z-index: 1;
     opacity: 1;
-    color: darken($white, 30);
+    color: darken($white, 50);
     line-height: 20px;
     max-width: 80%;
     span{
@@ -147,12 +166,13 @@
   h5{
     float: right;
     background: $dark;
-    font-size: 140%;
+    font-size: 110%;
     margin: 0;
     position: relative;
     z-index: 1;
     padding-left: 5px;
     line-height: 20px;
+    font-weight: 600;
   }
 
   aside{

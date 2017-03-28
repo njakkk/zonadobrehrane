@@ -1,0 +1,112 @@
+<section class="row meni-modal pattern">
+    <div class="meni-modal-img bg">
+        <img src="<%= @site.url %>/images/meni-08.jpg" alt="" data-bg-img/>
+    </div>
+    <div class="meni-modal-title">
+        <h1>Piće i dodaci</h1>
+    </div>
+    <div class="meni-modal-txt scrollbar">
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Dodaci</h3>
+            <div class="spacer"><span></span></div>
+        </div>
+        <!-------------------------------------------->
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pomfrit 200gr</span></h4>
+                <h5>110 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Grilovano povrće 200gr</span></h4>
+                <h5>190 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovani kačkavalj 200gr</span></h4>
+                <h5>250 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Lepinja</span></h4>
+                <h5>40 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Piće</h3>
+            <div class="spacer"><span></span></div>
+        </div>
+        <!-------------------------------------------->
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Coca Cola 0,33l / 0,55l</span></h4>
+                <h5>80 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Coca Cola 1,51l </span></h4>
+                <h5>150 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Fanta 0,33l / 0,55l</span></h4>
+                <h5>80 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Schweppes  0,33l</span></h4>
+                <h5>90 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Rosa  0,5l</span></h4>
+                <h5>70 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pivo Zaječarsko 0,5l </span></h4>
+                <h5>110 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pivo Heineken  0,5l </span></h4>
+                <h5>180 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+    </div>
+</section>

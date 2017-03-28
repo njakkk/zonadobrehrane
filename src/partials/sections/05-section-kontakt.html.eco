@@ -2,12 +2,13 @@
 <section section class="map-section" data-scroll-target="05">
     <div class="contact-info bg-light vertical-center z1 tl">
         <h1>Gde se nalazimo?</h1>
-        <p><b>Cara Dušana 60</b>, Beograd, Stari grad -  ugao Cara Dušana i kaperan Mišine</p>
+        <p><b>Cara Dušana 25</b>, Beograd, Stari grad -  ugao Cara Dušana i Dubrovačke</p>
         <div class="spacer"><span></span></div>
 
-        <h1>Do kada radimo</h1>
-        <p>Svakim radnim danom od <b>09:00</b> do <b>01:00</b></p>
-        <p>Subotom i nedeljom od <b>09:00</b> do <b>20:00</b></p>
+        <h1>Do kada radimo?</h1>
+        <p>Ponedeljak - Subota od <b>07:00</b> do <b>23:00</b></p>
+        <p>Nedeljom od <b>10:00</b> do <b>23:00</b></p>
+        <p>Radno vreme dostave od <b>07:00</b> do <b>22:00</b></p>
         <div class="spacer"><span></span></div>
 
         <h1>Kako da naručiš?</h1>
@@ -19,7 +20,7 @@
         </a>
     </div>
 
-    <div id="location" class="location-map" data-latitude="44.822145" data-longitude="20.462297"></div>
+    <div id="location" class="location-map" data-latitude="44.823492" data-longitude="20.459983"></div>
 
     <div class="map-nav">
         <button class="" id="map-zoomin"><i class="icon-add"></i></button>

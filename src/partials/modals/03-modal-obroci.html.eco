@@ -1,0 +1,75 @@
+<section class="row meni-modal pattern">
+    <div class="meni-modal-img bg">
+        <img src="<%= @site.url %>/images/meni-06.jpg" alt="" data-bg-img/>
+    </div>
+    <div class="meni-modal-title">
+        <h1>Komplet obroci</h1>
+    </div>
+    <div class="meni-modal-txt scrollbar">
+        <div class="meni-list-item">
+            <!-------------------------------------------->
+            <div class="tl">
+                <h3 class="subtitle">Belo meso</h3>
+                <div class="spacer"><span></span></div>
+            </div>
+            <!-------------------------------------------->
+
+            <h4>Belo klasik</h4>
+            <article>
+                <p><span>Pileće belo meso na žaru + pomfrit</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Punjeno belo</h4>
+            <article>
+                <p><span>Pilće belo meso na žaru punjeno kačkavaljem i šunkom + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Rolovano belo</h4>
+            <article>
+                <p><span>Pilće belo meso na žaru rolovano u slaninu + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Batak</h3>
+            <div class="spacer"><span></span></div>
+        </div>
+        <!-------------------------------------------->
+
+        <div class="meni-list-item">
+            <h4>Pileći batak klasik</h4>
+            <article>
+                <p><span>Pileći batak na žaru + pomfrit</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <!-------------------------------------------->
+        <div class="tl">
+            <h3 class="subtitle">Krilca</h3>
+            <div class="spacer"><span></span></div>
+        </div>
+        <!-------------------------------------------->
+
+        <div class="meni-list-item">
+            <h4>Hrskava krilca</h4>
+            <article>
+                <p><span>Pohovana hrskava pileća krilca + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
+                <h5>360,00</h5>
+                <aside></aside>
+            </article>
+        </div>
+    </div>
+</section>

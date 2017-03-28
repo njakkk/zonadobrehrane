@@ -5719,7 +5719,7 @@ img.home-logo {
   .meni-item .pict {
     position: relative; }
     .meni-item .pict svg {
-      height: 23vmin;
+      height: 19vmin;
       width: auto;
       min-height: 105px;
       margin: 2.2vmin 0;
@@ -5743,7 +5743,7 @@ img.home-logo {
       top: 50%;
       left: 50%;
       text-align: center;
-      font-size: 10vmin;
+      font-size: 8.5vmin;
       z-index: 1;
       transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
@@ -5756,8 +5756,10 @@ img.home-logo {
   .meni-item h2 {
     font-family: "Eveleth", sans-serif;
     font-weight: 100;
-    font-size: 1.1em;
-    letter-spacing: 0.2em; }
+    font-size: .9em;
+    line-height: 1.3em;
+    letter-spacing: 0.2em;
+    opacity: 0.4; }
 
 .meni-item:hover .pict svg path, .meni-item:focus .pict svg path {
   fill: rgba(0, 0, 0, 0.2);
@@ -5768,6 +5770,9 @@ img.home-logo {
 
 .meni-item:hover .pict i, .meni-item:focus .pict i {
   color: #ffe158; }
+
+.meni-item:hover h2, .meni-item:focus h2 {
+  opacity: 1; }
 
 .meni-modal {
   background: #2b2224;
@@ -5812,7 +5817,7 @@ img.home-logo {
   overflow-x: hidden; }
 
 .meni-list-item {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
   zoom: 1; }
   .meni-list-item:before, .meni-list-item:after {
@@ -5834,15 +5839,27 @@ img.home-logo {
       overflow: hidden; }
     .meni-list-item article:after {
       clear: both; }
+    .meni-list-item article h4 {
+      float: left;
+      position: relative;
+      z-index: 1;
+      opacity: 1;
+      line-height: 20px;
+      max-width: 80%; }
+      .meni-list-item article h4 span {
+        background: #2b2224; }
   .meni-list-item h4 {
-    clear: both; }
+    clear: both;
+    font-size: 110%;
+    margin-bottom: 5px; }
   .meni-list-item p {
     float: left;
-    font-size: 0.8em;
+    font-size: 13px;
+    font-weight: 400;
     position: relative;
     z-index: 1;
     opacity: 1;
-    color: #b3b3b3;
+    color: gray;
     line-height: 20px;
     max-width: 80%; }
     .meni-list-item p span {
@@ -5850,12 +5867,13 @@ img.home-logo {
   .meni-list-item h5 {
     float: right;
     background: #2b2224;
-    font-size: 140%;
+    font-size: 110%;
     margin: 0;
     position: relative;
     z-index: 1;
     padding-left: 5px;
-    line-height: 20px; }
+    line-height: 20px;
+    font-weight: 600; }
   .meni-list-item aside {
     position: absolute;
     right: 0;
