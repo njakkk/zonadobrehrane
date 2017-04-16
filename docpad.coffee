@@ -18,7 +18,7 @@ docpadConfig = {
     production:
       templateData:
         site:
-          url: "http://www.zonadobrehrane.com"
+          url: "http://zonadobrehrane.com"
     staging:
       templateData:
         site:
