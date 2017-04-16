@@ -2,7 +2,7 @@
 <section section class="gallery-section bg-light" data-scroll-target="04">
     <div class="big-padding">
         <div class="content-wrapper tc">
-            <h1 class="title">Naša dobra hrana</h1>
+            <h1 class="title"><%= @document.gallerySectionTitle %></h1>
             <div class="spacer tc"><span></span></div>
         </div>
         <section class="horizontal-grid-gallery" data-gallery>

@@ -8,14 +8,14 @@
     <div class="meni-modal-txt">
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">Dodaci</h3>
+            <h3 class="subtitle">Additions</h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pomfrit 200gr</span></h4>
+                <h4><span>French fries 200gr</span></h4>
                 <h5>110 din</h5>
                 <aside></aside>
             </article>
@@ -23,7 +23,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Grilovano povrće 200gr</span></h4>
+                <h4><span>Grilled vegetables 200gr</span></h4>
                 <h5>190 din</h5>
                 <aside></aside>
             </article>
@@ -31,7 +31,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovani kačkavalj 200gr</span></h4>
+                <h4><span>Fried cheese 250gr</span></h4>
                 <h5>250 din</h5>
                 <aside></aside>
             </article>
@@ -39,7 +39,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Lepinja</span></h4>
+                <h4><span>Flat bread</span></h4>
                 <h5>40 din</h5>
                 <aside></aside>
             </article>
@@ -48,7 +48,7 @@
 
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">Piće</h3>
+            <h3 class="subtitle">Drinks</h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
@@ -79,7 +79,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Schweppes  0,33l</span></h4>
+                <h4><span>Schweppes 0,33l</span></h4>
                 <h5>90 din</h5>
                 <aside></aside>
             </article>
@@ -87,7 +87,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Rosa  0,5l</span></h4>
+                <h4><span>Rosa water 0,5l</span></h4>
                 <h5>70 din</h5>
                 <aside></aside>
             </article>
@@ -95,7 +95,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pivo Zaječarsko 0,5l </span></h4>
+                <h4><span>Zaječarsko beer 0,5l </span></h4>
                 <h5>110 din</h5>
                 <aside></aside>
             </article>
@@ -103,7 +103,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pivo Heineken  0,5l </span></h4>
+                <h4><span>Heineken beer 0,5l </span></h4>
                 <h5>180 din</h5>
                 <aside></aside>
             </article>

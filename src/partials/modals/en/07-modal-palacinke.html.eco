@@ -9,7 +9,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka</span></h4>
+                <h4><span>Pancake</span></h4>
                 <h5>90 din</h5>
                 <aside></aside>
             </article>
@@ -17,7 +17,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka eurokrem</span></h4>
+                <h4><span>Pancake eurocream  </span></h4>
                 <h5>140 din</h5>
                 <aside></aside>
             </article>
@@ -25,7 +25,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka  eurokrem, plazma</span></h4>
+                <h4><span>Pancake eurocream, ground biscuits</span></h4>
                 <h5>150 din</h5>
                 <aside></aside>
             </article>
@@ -33,7 +33,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka nutela</span></h4>
+                <h4><span>Pancake nutella</span></h4>
                 <h5>150 din</h5>
                 <aside></aside>
             </article>
@@ -41,7 +41,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka nutela, plazma</span></h4>
+                <h4><span>Pancake nutella, ground biscuits</span></h4>
                 <h5>160 din</h5>
                 <aside></aside>
             </article>
@@ -49,25 +49,25 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Palačinka šećer, orasi</span></h4>
+                <h4><span>Pancake suggar, nuts</span></h4>
                 <h5>140 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Palačinka džem</h4>
+            <h4>Pancake jam</h4>
             <article>
-                <p><span>(kajsija, šljiva, jagoda) </span></p>
+                <p><span>(apricot, plum, strawberry) </span></p>
                 <h5>140 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Dodaci</h4>
+            <h4>Additions</h4>
             <article>
-                <p><span>(lešnik, badem, orasi, kokos, banana, višnja) </span></p>
+                <p><span>(hazelnut, almond, nuts, coconut, banana, sour cherry)</span></p>
                 <h5>30 din</h5>
                 <aside></aside>
             </article>

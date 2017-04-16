@@ -8,36 +8,36 @@
     <div class="meni-modal-txt">
 
         <div class="meni-list-item">
-            <h4>Cezar</h4>
+            <h4>Caesar </h4>
             <article>
-                <p><span>(piletina, slanina, parmezan, čeri paradajz, zelena salata, tost hleb, dresing) </span></p>
+                <p><span>(chicken, bacon, parmesan, cherry tomato, lettuce, toast, dressing)</span></p>
                 <h5>430 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Grčka</h4>
+            <h4>Greek salad</h4>
             <article>
-                <p><span>(paradajz, krastavac, paprika, crveni luk, masline, feta sir, začini)</span></p>
+                <p><span>(tomato, cucumber, paprika, red onions, olives, fat cheese, spices)</span></p>
                 <h5>380 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Tuna</h4>
+            <h4>Tuna salad</h4>
             <article>
-                <p><span>(tunjevina, zelena salata, paradajz, krastavac, jaje, crni luk, masline)</span></p>
+                <p><span>(tuna, lettuce, tomato, cucumber, egg, onions, olives)</span></p>
                 <h5>450 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>ZONA</h4>
+            <h4>ZONA salad</h4>
             <article>
-                <p><span>(komadići pohovane piletine, zelena salata, čeri paradajz, kukuruz, susam, dresing)</span></p>
+                <p><span>(fried chicken pieces, lettuce, cherry tomato, corn, sesame, dressing)</span></p>
                 <h5>480 din</h5>
                 <aside></aside>
             </article>

@@ -6,17 +6,45 @@ phoneHref:  "tel:+381640007277"
 
 homeSectionTitle: "Dobro došli u zonu dobre hrane!"
 homeSectionDescription: "Vodimo računa na ono što ulazi u našu kuhinju i na ono što izlazi iz nje. Mi smo zona dobre hrane u tvom kraju."
+homeSectionButton: "pogledaj meni"
+
+
+menuSectionTitle: "Meni"
+gallerySectionTitle: "Naša dobra hrana"
+offerSectionTitle: "Specijalne ponude"
+
 
 deliverySectionTitle: "Stižemo do tebe pre nego što ogladniš!"
 deliverySectionDescription: "Zato što nam je bitno da je naša hrana uvek sveža i topla kad stigne kod tebe."
+deliverySectionButton: "Naruči"
+
+navStart: "Početak"
+navOffers: "Akcije"
+navMenu: "Meni"
+navDelivery: "Dostava"
+navGallery: "Galerija"
+navContact: "Kontakt"
+
+
+cat01: "Roštilj"
+cat02: "Piletina"
+cat03: "Komplet obroci"
+cat04: "Sendviči"
+cat05: "Obrok salate"
+cat06: "Pizza"
+cat07: "Palačinke"
+cat08: "Piće i dodaci"
+
 ---
 
 <%- @partial('main-menu') %>
+<%- @partial('lang-menu') %>
 
 
 <section class="pages">
-    <%- @partial('sections/01-section-pocetak') %>
+    <%- @partial('sections/00-section-pocetak') %>
     <%- @partial('sections/02-section-meni') %>
+    <!--<%- @partial('sections/01-section-akcije') %>-->
     <%- @partial('sections/03-section-dostava') %>
     <%- @partial('sections/04-section-galerija') %>
     <%- @partial('sections/05-section-kontakt') %>

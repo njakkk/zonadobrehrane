@@ -1,13 +1,23 @@
-<a class="main-logo" href="#"  data-scroll-trigger="01">
+<a class="main-logo" href="#"  data-scroll-trigger="00">
     <img src="<%= @site.url %>/images/logo-small.svg" alt=""/>
 </a>
 <section class="main-menu">
+    <!--<ul>-->
+        <!--<li data-scroll-trigger="05"><a href="#" data-num="05"><span><%= @document.navContact %></span></a></li>-->
+        <!--<li data-scroll-trigger="04"><a href="#" data-num="04"><span><%= @document.navGallery %></span></a></li>-->
+        <!--<li data-scroll-trigger="03"><a href="#" data-num="03"><span><%= @document.navDelivery %></span></a></li>-->
+        <!--<li data-scroll-trigger="01"><a href="#" data-num="02"><span><%= @document.navOffers %></span></a></li>-->
+        <!--<li data-scroll-trigger="02"><a href="#" data-num="01"><span><%= @document.navMenu %></span></a></li>-->
+        <!--<li class="progress"></li>-->
+    <!--</ul>-->
+
+
     <ul>
-        <li data-scroll-trigger="05"><a href="#" data-num="05"><span>kontakt</span></a></li>
-        <li data-scroll-trigger="04"><a href="#" data-num="04"><span>galerija</span></a></li>
-        <li data-scroll-trigger="03"><a href="#" data-num="03"><span>dostava</span></a></li>
-        <li data-scroll-trigger="02"><a href="#" data-num="02"><span>meni</span></a></li>
-        <li data-scroll-trigger="01"><a href="#" data-num="01"><span>početak</span></a></li>
+        <li data-scroll-trigger="05"><a href="#" data-num="05"><span><%= @document.navContact %></span></a></li>
+        <li data-scroll-trigger="04"><a href="#" data-num="04"><span><%= @document.navGallery %></span></a></li>
+        <li data-scroll-trigger="03"><a href="#" data-num="03"><span><%= @document.navDelivery %></span></a></li>
+        <li data-scroll-trigger="02"><a href="#" data-num="02"><span><%= @document.navMenu %></span></a></li>
+        <li data-scroll-trigger="00"><a href="#" data-num="01"><span><%= @document.navStart %></span></a></li>
         <li class="progress"></li>
     </ul>
 </section>

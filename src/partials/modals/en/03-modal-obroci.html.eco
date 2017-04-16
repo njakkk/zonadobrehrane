@@ -4,85 +4,85 @@
     </div>
     <div class="meni-modal-title">
         <h1><%= @document.cat03 %></h1>
-        <h4>+ gratis Coca Cola 0,33l</h4>
+        <h4>+ free Coca Cola 0,33l</h4>
     </div>
     <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <h4>Pileći štapići 200gr</h4>
+            <h4>Chicken sticks 200gr</h4>
             <article>
-                <p><span>(+ lepinja + pomfrit 200gr + sveža salata)</span></p>
+                <p><span>(+ bread + French fries 200gr + fresh salad)</span></p>
                 <h5>450 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Ćevapi 180gr</h4>
+            <h4>Meat rolls 180gr</h4>
             <article>
-                <p><span>(+ lepinja + pomfrit 200gr+ sveža salata) </span></p>
+                <p><span>(+ bread + French fries 200gr + fresh salad) </span></p>
                 <h5>400 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Uštipci 250gr</h4>
+            <h4>Stuffed meat 250gr</h4>
             <article>
-                <p><span>(+ lepinja + pomfrit 200gr+ sveža salata)</span></p>
+                <p><span>( + bread + French fries 200gr + fresh salad)</span></p>
                 <h5>470 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Pljeskavica 200gr</h4>
+            <h4>Hamburger 200gr</h4>
             <article>
-                <p><span> (+ lepinja + pomfrit 200gr + sveža salata)</span></p>
+                <p><span> (+bread + French fries 200gr + fresh salad)</span></p>
                 <h5>420 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Punjeno belo 300gr</h4>
+            <h4>Stuffed chicken 300gr</h4>
             <article>
-                <p><span> (+ lepinja + pomfrit 200gr+ sveža salata) </span></p>
+                <p><span> (+ bread + French fries 200gr + fresh salad) </span></p>
                 <h5>560 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Pileći file 200gr</h4>
+            <h4>Grilled chicken filet 200gr</h4>
             <article>
-                <p><span>(+ lepinja + pomfrit 200gr+ sveža salata) </span></p>
+                <p><span>(+ bread + French fries 200gr + fresh salad) </span></p>
                 <h5>430 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Batak 200gr</h4>
+            <h4>Chicken leg 200gr</h4>
             <article>
-                <p><span>(+ lepinja + pomfrit 200gr+ sveža salata)</span></p>
+                <p><span>(+ bread + French fries 200gr + fresh salad)</span></p>
                 <h5>430 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>ZONA</h4>
+            <h4>ZONA meal</h4>
             <article>
-                <p><span>(krilca na žaru 500gr + lepinja + pomfrit 200gr+ sveža salata)</span></p>
+                <p><span>(Grilled wings 500gr + bread + French fries 200gr + fresh salad)</span></p>
                 <h5>530 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Fit obrok</h4>
+            <h4>Fit meal</h4>
             <article>
-                <p><span>(grilovani pileći file 200gr + grilovano povrće 200gr)</span></p>
+                <p><span>(grilled chicken filet 200gr + grilled vegetables 200gr)</span></p>
                 <h5>440 din</h5>
                 <aside></aside>
             </article>

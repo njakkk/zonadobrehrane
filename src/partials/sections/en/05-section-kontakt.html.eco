@@ -1,0 +1,30 @@
+
+<section section class="map-section" data-scroll-target="05">
+    <div class="contact-info bg-light vertical-center z1 tl">
+        <h1>Location</h1>
+        <p><b>Cara Dušana 25</b>, Belgrade, Old town -  corner of Cara Dušana and Dubrovačka street</p>
+        <div class="spacer"><span></span></div>
+
+        <h1>Working hours</h1>
+        <p>Monday - Saturday from <b>07:00</b> to <b>23:00</b></p>
+        <p>Sunday from <b>10:00</b> to <b>23:00</b></p>
+        <p>Delivery works from <b>07:00</b> to <b>22:00</b></p>
+        <div class="spacer"><span></span></div>
+
+        <h1>How to order?</h1>
+        <p>Choose anything from our delicious menu and call us!</p>
+
+        <a class="phone" href="<%= @document.phoneHref %>">
+            <i class="icon-phone"></i>
+            <span><%= @document.phone %></span>
+        </a>
+    </div>
+
+    <div id="location" class="location-map" data-latitude="44.823492" data-longitude="20.459983"></div>
+
+    <div class="map-nav">
+        <button class="" id="map-zoomin"><i class="icon-add"></i></button>
+        <button class="" id="map-zoomout"><i class="icon-remove"></i></button>
+    </div>
+
+</section>

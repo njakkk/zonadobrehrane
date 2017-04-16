@@ -1,0 +1,18 @@
+<section section class="home-section" data-scroll-target="01">
+
+    <div class="content-wrapper">
+        <div class="vh" data-300-top="transform: scale(0.6);" data-top="transform: scale(1);">
+            <div class="vertical-center">
+                <div class="row">
+                    <div class="meni-title">
+                        <h1 class="title"><%= @document.offerSectionTitle %></h1>
+                        <div class="spacer tc"><span></span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>

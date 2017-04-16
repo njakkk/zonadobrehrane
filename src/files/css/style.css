@@ -5655,7 +5655,8 @@ img.home-logo {
     -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     /* custom */
-    transition-delay: 0.2s; }
+    transition-delay: 0.2s;
+    opacity: 0; }
   .main-menu a {
     display: block;
     position: relative;
@@ -5688,19 +5689,46 @@ img.home-logo {
     color: #2b2224; }
 
 .main-menu li:nth-child(5).active ~ li.progress {
-  right: 0; }
+  right: 0;
+  opacity: 1; }
 
 .main-menu li:nth-child(4).active ~ li.progress {
-  right: 20%; }
+  right: 20%;
+  opacity: 1; }
 
 .main-menu li:nth-child(3).active ~ li.progress {
-  right: 40%; }
+  right: 40%;
+  opacity: 1; }
 
 .main-menu li:nth-child(2).active ~ li.progress {
-  right: 60%; }
+  right: 60%;
+  opacity: 1; }
 
 .main-menu li:nth-child(1).active ~ li.progress {
-  right: 80%; }
+  right: 80%;
+  opacity: 1; }
+
+.lang-menu {
+  position: absolute;
+  top: 2.2vmin;
+  right: 2.2vmin;
+  z-index: 10; }
+  .lang-menu li {
+    display: inline-block;
+    margin-left: -6px; }
+    .lang-menu li a {
+      display: block;
+      font-weight: 400;
+      opacity: 0.7;
+      font-size: 13px;
+      line-height: 40px;
+      padding: 0 10px;
+      border: solid 1px #fff;
+      position: relative; }
+    .lang-menu li a.active {
+      font-weight: 600;
+      opacity: 1;
+      z-index: 1; }
 
 @media screen and (max-width: 1200px) {
   .main-menu {

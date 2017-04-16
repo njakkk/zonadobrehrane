@@ -8,7 +8,7 @@
     <div class="meni-modal-txt">
         <div class="meni-list-item">
             <article>
-                <h4><span>Pileći file 200gr</span></h4>
+                <h4><span>Grilled chicken filet 200gr</span></h4>
                 <h5>250 din</h5>
                 <aside></aside>
             </article>
@@ -16,7 +16,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pileći batak 200gr</span></h4>
+                <h4><span>Chicken leg 200gr</span></h4>
                 <h5>250 din</h5>
                 <aside></aside>
             </article>
@@ -24,7 +24,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Punjeni pileći file 350gr</span></h4>
+                <h4><span>Stuffed chicken filet 350gr</span></h4>
                 <h5>390 din</h5>
                 <aside></aside>
             </article>
@@ -32,7 +32,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Punjeni batak 350gr</span></h4>
+                <h4><span>Stuffed chicken leg 350gr</span></h4>
                 <h5>390 din</h5>
                 <aside></aside>
             </article>
@@ -40,7 +40,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Dimljeni batak 250gr</span></h4>
+                <h4><span>Smoked chicken leg 250gr</span></h4>
                 <h5>370 din</h5>
                 <aside></aside>
             </article>
@@ -48,7 +48,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Krilca na žaru 250gr </span></h4>
+                <h4><span>Grilled chicken wings 250gr </span></h4>
                 <h5>180 din</h5>
                 <aside></aside>
             </article>
@@ -56,7 +56,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Krilca na žaru 500gr </span></h4>
+                <h4><span>Grilled chicken wings 500gr </span></h4>
                 <h5>350 din</h5>
                 <aside></aside>
             </article>
@@ -64,7 +64,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovani pileći file 200gr </span></h4>
+                <h4><span>Fried chicken filet 200gr</span></h4>
                 <h5>250 din</h5>
                 <aside></aside>
             </article>
@@ -72,7 +72,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovani punjeni pileći file (pečenica, kačkavalj) 300gr</span></h4>
+                <h4><span>Fried stuffed chicken filet (ham, cheese) 300gr</span></h4>
                 <h5>350 din</h5>
                 <aside></aside>
             </article>
@@ -80,7 +80,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovani pileći file sa susamom 200gr</span></h4>
+                <h4><span>Fried chicken filet with sesame 200gr</span></h4>
                 <h5>270 din</h5>
                 <aside></aside>
             </article>
@@ -88,7 +88,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovani punjeni pileći file sa susamom 300gr</span></h4>
+                <h4><span>Fried stuffed chicken filet with sesame 300gr</span></h4>
                 <h5>370 din</h5>
                 <aside></aside>
             </article>
@@ -96,7 +96,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovana krilca 250gr</span></h4>
+                <h4><span>Breaded chicken wings 250gr</span></h4>
                 <h5>230 din</h5>
                 <aside></aside>
             </article>
@@ -104,7 +104,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Pohovana krilca 500gr</span></h4>
+                <h4><span>Breaded chicken wings 500gr</span></h4>
                 <h5>430 din</h5>
                 <aside></aside>
             </article>
@@ -112,14 +112,14 @@
 
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">ZONA komadići <p><i>(pohovano pileće belo - komadići, sos po izboru)</i></p> </h3>
+            <h3 class="subtitle">ZONA scraps <p><i>(fried chicken - scraps, sauce of your choice)</i></p> </h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Komadići 100gr</span></h4>
+                <h4><span>Scraps 100gr</span></h4>
                 <h5>150 din</h5>
                 <aside></aside>
             </article>
@@ -127,7 +127,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Komadići 200gr</span></h4>
+                <h4><span>Scraps 200gr</span></h4>
                 <h5>280 din</h5>
                 <aside></aside>
             </article>
@@ -135,7 +135,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Komadići 300gr</span></h4>
+                <h4><span>Scraps 300gr</span></h4>
                 <h5>390 din</h5>
                 <aside></aside>
             </article>
@@ -143,7 +143,7 @@
 
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">ZONA ementaler <p><i>(pohovano pilece belo punjeno ementaler kačkavaljem)</i></p> </h3>
+            <h3 class="subtitle">ZONA emmental <p><i>(fried chicken stuffed with Emmental cheese)</i></p> </h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
@@ -151,7 +151,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ementaler 3 kom/ 300gr  ( sos po izboru)</span></h4>
+                <h4><span>Emmental 3 pieces (sauce of your choice)</span></h4>
                 <h5>330 din</h5>
                 <aside></aside>
             </article>
@@ -159,7 +159,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ementaler  6 kom/ 600gr (2 sosa po izboru)</span></h4>
+                <h4><span>Emmental 6 pieces (two sauces of your choice)</span></h4>
                 <h5>620 din</h5>
                 <aside></aside>
             </article>
@@ -167,7 +167,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ementaler  9 kom/ 900gr (3 sosa po izboru)</span></h4>
+                <h4><span>Emmental 9 pieces (three sauces of your choice)</span></h4>
                 <h5>900 din</h5>
                 <aside></aside>
             </article>

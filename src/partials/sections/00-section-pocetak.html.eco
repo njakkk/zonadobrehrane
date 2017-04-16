@@ -1,4 +1,4 @@
-<section section class="home-section" data-scroll-target="01">
+<section section class="home-section" data-scroll-target="00">
     <img src="<%= @site.url %>/images/section_01.png" alt="" class="home-img"
          data-0="top: 0px;"
          data-800="top: -200px;"
@@ -32,7 +32,7 @@
                         <span><%= @document.phone %></span>
                     </a>
                     <br/>
-                    <a class="down" href="#" data-scroll-trigger="02"> <i class="icon-down-thin animated"></i> <span>pogledaj meni</span></a>
+                    <a class="down" href="#" data-scroll-trigger="02"> <i class="icon-down-thin animated"></i> <span><%= @document.homeSectionButton %></span></a>
                 </div>
             </div>
         </div>

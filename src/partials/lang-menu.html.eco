@@ -1,0 +1,6 @@
+<section class="lang-menu">
+    <ul>
+        <li><a href="<%= @site.url %>">SRP</a></li>
+        <li><a href="<%= @site.url %>/en">ENG</a></li>
+    </ul>
+</section>

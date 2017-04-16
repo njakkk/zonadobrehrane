@@ -19,9 +19,9 @@
         <!------------------------------->
 
         <div class="meni-list-item">
-            <h4>Margherita</h4>
+            <h4>Margherita </h4>
             <article>
-                <p><span>(pelat, kačkavalj, masline, origano)</span></p>
+                <p><span>(tinned tomatoes, cheese, olives, oregano)</span></p>
                 <h6>
                     <span>360 din</span>
                     <span>510 din</span>
@@ -34,7 +34,7 @@
         <div class="meni-list-item">
             <h4>Funghi</h4>
             <article>
-                <p><span>(pelat, kačkavalj, pečurke, masline, origano)</span></p>
+                <p><span>(tinned tomatoes, cheese, mushrooms, olives, oregano)    </span></p>
 
                 <h6>
                     <span>360 din</span>
@@ -48,7 +48,7 @@
         <div class="meni-list-item">
             <h4>Vegeteriana</h4>
             <article>
-                <p><span>(pelat, biljni kačkavalj, paprika, crni luk, pečurke, kukuruz, paradajz, masline, origano)</span></p>
+                <p><span>(tinned tomatoes, vegetable cheese, paprika, onions, mushrooms, corn, tomato, olives, oregano) </span></p>
                 <h6>
                     <span>400 din</span>
                     <span>550 din</span>
@@ -61,7 +61,7 @@
         <div class="meni-list-item">
             <h4>Vesuvio</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, masline, origano)   </span></p>
+                <p><span>(tinned tomatoes, cheese, ham, olives, oregano)</span></p>
                 <h6>
                     <span>390 din</span>
                     <span>540 din</span>
@@ -74,7 +74,7 @@
         <div class="meni-list-item">
             <h4>Capricciosa</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pečurke, masline, origano)</span></p>
+                <p><span>(tinned tomatoes, cheese, ham, mushrooms, olives, oregano)</span></p>
                 <h6>
                     <span>400 din</span>
                     <span>580 din</span>
@@ -85,9 +85,9 @@
         </div>
 
         <div class="meni-list-item">
-            <h4>Peperoni</h4>
+            <h4>Pepperoni</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pečurke, peperoni, masline, origano) </span></p>
+                <p><span>(tinned tomatoes, cheese, ham, pancetta, hot salami, Tabasco, olives, oregano)</span></p>
                 <h6>
                     <span>420 din</span>
                     <span>580 din</span>
@@ -100,7 +100,7 @@
         <div class="meni-list-item">
             <h4>Diablo</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pančeta, kulen, tabasko, masline, origano)  </span></p>
+                <p><span>(tinned tomatoes, cheese, ham, pancetta, hot salami, Tabasco, olives, oregano)</span></p>
                 <h6>
                     <span>480 din</span>
                     <span>690 din</span>
@@ -113,7 +113,7 @@
         <div class="meni-list-item">
             <h4>Quattro stagioni</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pečurke, jaje, kulen, masline, origano) </span></p>
+                <p><span>(tinned tomatoes, cheese, ham, mushrooms, egg, hot salami, olives, oregano) </span></p>
                 <h6>
                     <span>450 din</span>
                     <span>620 din</span>
@@ -126,7 +126,7 @@
         <div class="meni-list-item">
             <h4>Quattro formaggi</h4>
             <article>
-                <p><span>(kačkavalj, mocarela, gorgonzola, parmezan, masline)</span></p>
+                <p><span>(cheese, mozzarella, gorgonzola, parmesan, olives)</span></p>
                 <h6>
                     <span>550 din</span>
                     <span>770 din</span>
@@ -139,7 +139,7 @@
         <div class="meni-list-item">
             <h4>Fettuccino</h4>
             <article>
-                <p><span>(pelat, kačkavalj, pečenica, feta sir, mocarela, svež paradajz, masline, oriagano)</span></p>
+                <p><span>(tinned tomatoes, cheese, ham, fat cheese, fresh tomato, olives, oregano)</span></p>
                 <h6>
                     <span>420 din</span>
                     <span>590 din</span>
@@ -152,7 +152,7 @@
         <div class="meni-list-item">
             <h4>ZONA</h4>
             <article>
-                <p><span>(pelat, mocarela, čeri paradajz, pršuta, rukola, origano, masline)</span></p>
+                <p><span>(tinned tomatoes, mozzarella, cherry tomato, ham, rocket salad, olives, oregano)</span></p>
                 <h6>
                     <span>480 din</span>
                     <span>690 din</span>
@@ -163,9 +163,9 @@
         </div>
 
         <div class="meni-list-item">
-            <h4>ZONA SPECIAL - preklopljena pizza </h4>
+            <h4>ZONA SPECIAL - pizza pie</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pečenica, pavlaka, jaje, masline, origano) </span></p>
+                <p><span>(tinned tomatoes, cheese, ham (2 types), sour cream, egg, olives, oregano) </span></p>
                 <h6>
                     <span>650 din</span>
                     <span>900 din</span>
@@ -179,17 +179,17 @@
         <div class="meni-list-item">
             <article>
                 <h6 class="size">
-                    <span>manja</span>
-                    <span>veća</span>
+                    <span>small</span>
+                    <span>big</span>
                 </h6>
             </article>
         </div>
         <!------------------------------->
 
         <div class="meni-list-item">
-            <h4>Calzona</h4>
+            <h4>Calzone</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka) </span></p>
+                <p><span>(tinned tomatoes, cheese, ham)</span></p>
                 <h6>
                     <span>300 din</span>
                     <span>550 din</span>
@@ -199,9 +199,9 @@
         </div>
 
         <div class="meni-list-item">
-            <h4>Piroška</h4>
+            <h4>Piroshki</h4>
             <article>
-                <p><span>(pelat, kačkavalj, šunka, pečurke, pavlaka)</span></p>
+                <p><span>(tinned tomatoes, cheese, ham, mushrooms, sour cream)</span></p>
                 <h6>
                     <span>350 din</span>
                     <span>600 din</span>

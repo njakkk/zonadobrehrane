@@ -4,6 +4,17 @@
          data-top="bottom: 0px;"
          data-top-bottom="bottom: -300px;"
             />
+
+    <img src="<%= @site.url %>/images/s02-e01.png" alt="" class="absolute parallax-layer"
+         data-400="right:20%; top: 20%;"
+         data-1800="right:20%; top: -20%;"
+            />
+
+    <img src="<%= @site.url %>/images/s02-e02.png" alt="" class="absolute parallax-layer"
+         data-500-top="left:35%; top: 300px;"
+         data-top="left:35%; top: -100px"
+            />
+
     <div class="content-wrapper">
         <div class="row">
             <div class="column-2 vh"></div>
@@ -19,7 +30,7 @@
                     <div class="spacer"><span></span></div>
                     <p><%= @document.deliverySectionDescription %></p>
                     <br/>
-                    <a class="btn" href="#" data-scroll-trigger="05" tabindex="6">Naruči</a>
+                    <a class="btn" href="#" data-scroll-trigger="05" tabindex="6"><%= @document.deliverySectionButton %></a>
                 </div>
             </div>
         </div>

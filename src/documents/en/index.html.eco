@@ -1,0 +1,66 @@
+---
+layout: "main"
+
+phone:  "+381 64 000 72 77"
+phoneHref:  "tel:+381640007277"
+
+homeSectionTitle: "Wellcome to good food zone!"
+homeSectionDescription: "We are very carefull about what comes into our kitchen and what comes out of it. We are a good food zone in your naberhood."
+homeSectionButton: "the menu"
+
+menuSectionTitle: "Menu"
+gallerySectionTitle: "Our good food"
+offerSectionTitle: "Special offers"
+
+deliverySectionTitle: "We'll arrive before you get hungry!"
+deliverySectionDescription: "Because it's very important that you always get your food fresh and warm."
+deliverySectionButton: "Order"
+
+navStart: "Start"
+navOffers: "Offers"
+navMenu: "Menu"
+navDelivery: "Delivery"
+navGallery: "Gallery"
+navContact: "Contact"
+
+cat01: "Grill"
+cat02: "Chicken"
+cat03: "Complete meals"
+cat04: "Sandwiches"
+cat05: "Salad meals"
+cat06: "Pizza"
+cat07: "Pancakes"
+cat08: "Drinks & additions"
+
+---
+
+<%- @partial('main-menu') %>
+<%- @partial('lang-menu') %>
+
+
+<section class="pages">
+    <%- @partial('sections/00-section-pocetak') %>
+    <%- @partial('sections/02-section-meni') %>
+    <!--<%- @partial('sections/01-section-akcije') %>-->
+    <%- @partial('sections/03-section-dostava') %>
+    <%- @partial('sections/04-section-galerija') %>
+    <%- @partial('sections/en/05-section-kontakt') %>
+</section>
+
+
+<div id="meni-modal" class="mfp-hide">
+    <div class="meni-slider">
+        <%- @partial('modals/en/01-modal-rostilj') %>
+        <%- @partial('modals/en/02-modal-piletina') %>
+        <%- @partial('modals/en/03-modal-obroci') %>
+        <%- @partial('modals/en/04-modal-sendvici') %>
+        <%- @partial('modals/en/05-modal-salate') %>
+        <%- @partial('modals/en/06-modal-pizza') %>
+        <%- @partial('modals/en/07-modal-palacinke') %>
+        <%- @partial('modals/en/08-modal-ostalo') %>
+    </div>
+</div>
+
+
+
+

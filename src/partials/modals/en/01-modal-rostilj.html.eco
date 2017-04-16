@@ -8,7 +8,7 @@
     <div class="meni-modal-txt">
         <div class="meni-list-item">
             <article>
-                <h4><span>Mala pljeskavica 120gr</span></h4>
+                <h4><span>Small burger 120gr</span></h4>
                 <h5>160 din</h5>
                 <aside></aside>
             </article>
@@ -16,7 +16,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Velika pljeskavica 200gr</span></h4>
+                <h4><span>Big burger 200gr</span></h4>
                 <h5>240 din</h5>
                 <aside></aside>
             </article>
@@ -24,7 +24,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Leskovačka pljeskavica 250gr</span></h4>
+                <h4><span>‘’Leskovacka’’ burger 250gr </span></h4>
                 <h5>270 din</h5>
                 <aside></aside>
             </article>
@@ -32,7 +32,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Punjena pljeskavica 300gr</span></h4>
+                <h4><span>Stuffed hamburger 300gr</span></h4>
                 <h5>330 din</h5>
                 <aside></aside>
             </article>
@@ -40,7 +40,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Gurmanska pljeskavica 250gr</span></h4>
+                <h4><span>Gourmet burger 250gr</span></h4>
                 <h5>300 din</h5>
                 <aside></aside>
             </article>
@@ -48,7 +48,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Uštipci 250gr</span></h4>
+                <h4><span>Stuffed meat 250gr </span></h4>
                 <h5>280 din</h5>
                 <aside></aside>
             </article>
@@ -56,7 +56,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ćevapi 5 kom 180gr</span></h4>
+                <h4><span>Meat rolls  5 pcs. 180gr</span></h4>
                 <h5>210 din</h5>
                 <aside></aside>
             </article>
@@ -64,7 +64,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ćevapi 10 kom 360gr</span></h4>
+                <h4><span>Meat rolls  10 pcs. 360gr</span></h4>
                 <h5>420 din</h5>
                 <aside></aside>
             </article>
@@ -72,7 +72,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Ćevapi 1kg </span></h4>
+                <h4><span>Meat rolls 1kg </span></h4>
                 <h5>850 din</h5>
                 <aside></aside>
             </article>
@@ -80,7 +80,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Svinjski vrat 200gr</span></h4>
+                <h4><span>Pork neck 200gr</span></h4>
                 <h5>300 din</h5>
                 <aside></aside>
             </article>
@@ -88,7 +88,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Bela vešalica 200gr</span></h4>
+                <h4><span>White steak 200gr</span></h4>
                 <h5>380 din</h5>
                 <aside></aside>
             </article>
@@ -96,7 +96,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Punjena bela vešalica 350gr</span></h4>
+                <h4><span>Stuffed white steak 350gr</span></h4>
                 <h5>500 din</h5>
                 <aside></aside>
             </article>
@@ -104,7 +104,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Kobasica 200gr </span></h4>
+                <h4><span>Sausage 200gr</span></h4>
                 <h5>240 din</h5>
                 <aside></aside>
             </article>
@@ -112,7 +112,7 @@
 
         <div class="meni-list-item">
             <article>
-                <h4><span>Mešano meso 1kg</span></h4>
+                <h4><span>Mixed meat 1kg</span></h4>
                 <h5>950 din</h5>
                 <aside></aside>
             </article>

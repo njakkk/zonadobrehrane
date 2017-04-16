@@ -4,67 +4,67 @@
     </div>
     <div class="meni-modal-title">
         <h1><%= @document.cat04 %></h1>
-        <h4>u sveže pečenoj lepinji</h4>
+        <h4>in the fresh flat bread</h4>
     </div>
     <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <h4>ZONA sendvič</h4>
+            <h4>ZONA sandwich</h4>
             <article>
-                <p><span>(pršuta, kajmak)</span></p>
+                <p><span>(ham, milk cream) </span></p>
                 <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Šunka</h4>
+            <h4>Ham</h4>
             <article>
-                <p><span>(šunka, pavlaka, kačkavalj + salata po izboru)</span></p>
+                <p><span>(ham, sour cream, cheese + salad of your choice) </span></p>
                 <h5>220 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Kulen</h4>
+            <h4>Hot salami</h4>
             <article>
-                <p><span>(kulen, pavlaka, kačkavalj + salata po izboru) </span></p>
+                <p><span>(Hot salami, sour cream, cheese + salad of your choice)</span></p>
                 <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Pečenica</h4>
+            <h4>Pork undercut</h4>
             <article>
-                <p><span>(pečenica, pavlaka, kačkavalj salata po izboru)</span></p>
+                <p><span>(undercut, sour cream, cheese + salad of your choice)</span></p>
                 <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Grill pileći</h4>
+            <h4>Grilled chicken sandwich</h4>
             <article>
-                <p><span>(grilovana piletina, majonez, zelena salata, paradajz)</span></p>
+                <p><span>(grill chicken, mayonnaise, lettuce, tomato)</span></p>
                 <h5>240 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Pohovani pileći</h4>
+            <h4>Fried chicken sandwich</h4>
             <article>
-                <p><span>(pohovana piletina, majonez, zelena salata, paradajz)</span></p>
+                <p><span>(fried chicken, mayonnaise, lettuce, tomato)</span></p>
                 <h5>240 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Vegetarijanski</h4>
+            <h4>Vegetarian sandwich</h4>
             <article>
-                <p><span>(jaje, pavlaka, paradajz, rukola)</span></p>
+                <p><span>(egg, sour cream, tomato, rocket salad)</span></p>
                 <h5>210 din</h5>
                 <aside></aside>
             </article>
