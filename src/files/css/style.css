@@ -5680,12 +5680,12 @@ img.home-logo {
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     /* custom */ }
 
-.main-menu.active-4 {
+.main-menu.active-2 {
   color: #2b2224;
   border-bottom-color: rgba(0, 0, 0, 0.08); }
-  .main-menu.active-4:hover {
+  .main-menu.active-2:hover {
     background: #fff; }
-  .main-menu.active-4 a {
+  .main-menu.active-2 a {
     color: #2b2224; }
 
 .main-menu li:nth-child(5).active ~ li.progress {
