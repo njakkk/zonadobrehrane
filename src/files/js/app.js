@@ -66,13 +66,17 @@ function meniModal(){
             }
         }
     });
+
+
+
     trigger.each(function(self){
         self = $(this);
-        self.on('click',function(pageName){
+        self.on('click',function(){
             var slideNum = $(this).attr('data-slide') - 1;
-            pageName = $(this).attr('data-hash');
+            var pageName = $(this).attr('data-hash');
+
             $('.meni-slider').trigger('to.owl.carousel', [slideNum, 0]);
-            location.hash = pageName;
+//            location.hash = pageName;
 
         });
     });
@@ -130,7 +134,7 @@ function imageGallery(trigger){
     });
 
     trigger.on('click',function(){
-        location.hash = 'gallery';
+//        location.hash = 'gallery';
     });
 }
 
@@ -266,10 +270,9 @@ function meniSlider(){
             dots: false,
             navText : ["", ""],
             autoPlay: false,
-            animateIn: 'slideInUp',
-            animateOut: 'slideOutDown',
             autoHeight : true,
-            addClassActive: true
+            addClassActive: true,
+            navSpeed: 1000
         });
     });
 

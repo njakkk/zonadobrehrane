@@ -5,71 +5,173 @@
     <div class="meni-modal-title">
         <h1>Piletina</h1>
     </div>
-    <div class="meni-modal-txt scrollbar">
+    <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <!-------------------------------------------->
-            <div class="tl">
-                <h3 class="subtitle">Belo meso</h3>
-                <div class="spacer"><span></span></div>
-            </div>
-            <!-------------------------------------------->
-
-            <h4>Belo klasik</h4>
             <article>
-                <p><span>Pileće belo meso na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <h4><span>Pileći file 200gr</span></h4>
+                <h5>250 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Punjeno belo</h4>
             <article>
-                <p><span>Pilće belo meso na žaru punjeno kačkavaljem i šunkom + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Pileći batak 200gr</span></h4>
+                <h5>250 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rolovano belo</h4>
             <article>
-                <p><span>Pilće belo meso na žaru rolovano u slaninu + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Punjeni pileći file 350gr</span></h4>
+                <h5>390 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Punjeni batak 350gr</span></h4>
+                <h5>390 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Dimljeni batak 250gr</span></h4>
+                <h5>370 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Krilca na žaru 250gr </span></h4>
+                <h5>180 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Krilca na žaru 500gr </span></h4>
+                <h5>350 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovani pileći file 200gr </span></h4>
+                <h5>250 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovani punjeni pileći file (pečenica, kačkavalj) 300gr</span></h4>
+                <h5>350 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovani pileći file sa susamom 200gr</span></h4>
+                <h5>270 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovani punjeni pileći file sa susamom 300gr</span></h4>
+                <h5>370 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovana krilca 250gr</span></h4>
+                <h5>230 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Pohovana krilca 500gr</span></h4>
+                <h5>430 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">Batak</h3>
+            <h3 class="subtitle">ZONA komadići <p><i>(pohovano pileće belo - komadići, sos po izboru)</i></p> </h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
 
         <div class="meni-list-item">
-            <h4>Pileći batak klasik</h4>
             <article>
-                <p><span>Pileći batak na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <h4><span>Komadići 100gr</span></h4>
+                <h5>150 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Komadići 200gr</span></h4>
+                <h5>280 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Komadići 300gr</span></h4>
+                <h5>390 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <!-------------------------------------------->
         <div class="tl">
-            <h3 class="subtitle">Krilca</h3>
+            <h3 class="subtitle">ZONA ementaler <p><i>(pohovano pilece belo punjeno ementaler kačkavaljem)</i></p> </h3>
             <div class="spacer"><span></span></div>
         </div>
         <!-------------------------------------------->
 
+
         <div class="meni-list-item">
-            <h4>Hrskava krilca</h4>
             <article>
-                <p><span>Pohovana hrskava pileća krilca + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Ementaler 3 kom/ 300gr  ( sos po izboru)</span></h4>
+                <h5>330 din</h5>
                 <aside></aside>
             </article>
         </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Ementaler  6 kom/ 600gr (2 sosa po izboru)</span></h4>
+                <h5>620 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Ementaler  9 kom/ 900gr (3 sosa po izboru)</span></h4>
+                <h5>900 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
     </div>
 </section>

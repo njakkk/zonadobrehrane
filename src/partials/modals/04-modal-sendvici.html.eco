@@ -4,51 +4,71 @@
     </div>
     <div class="meni-modal-title">
         <h1>Sendviči</h1>
+        <h4>u sveže pečenoj lepinji</h4>
     </div>
-    <div class="meni-modal-txt scrollbar">
+    <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <h4>Sendvič šunka</h4>
+            <h4>ZONA sendvič</h4>
             <article>
-                <p><span>Margarin, šunka, kačkavalj+3priloga po izboru</span></p>
-                <h5>200,00</h5>
+                <p><span>(pršuta, kajmak)</span></p>
+                <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Sendvič pečenica</h4>
+            <h4>Šunka</h4>
             <article>
-                <p><span>Margarin, šunka, kačkavalj+3priloga po izboru</span></p>
-                <h5>220,00</h5>
+                <p><span>(šunka, pavlaka, kačkavalj + salata po izboru)</span></p>
+                <h5>220 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Sendvič dimljena piletina</h4>
+            <h4>Kulen</h4>
             <article>
-                <p><span>Margarin,iceberg,kačkavalj,dimljena piletina,krastavac,paradajiz. </span></p>
-                <h5>260,00</h5>
+                <p><span>(kulen, pavlaka, kačkavalj + salata po izboru) </span></p>
+                <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Tuna sendvič</h4>
+            <h4>Pečenica</h4>
             <article>
-                <p><span> Margarin,iceberg,biljni kačkavalj,tuna,krastavac,paradajiz.</span></p>
-                <h5>360,00</h5>
+                <p><span>(pečenica, pavlaka, kačkavalj salata po izboru)</span></p>
+                <h5>230 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Sendvič pršuta</h4>
+            <h4>Grill pileći</h4>
             <article>
-                <p><span>Kajmak,iceberg,pršuta,kuvano jaje,krastavac,paradajiz.</span></p>
-                <h5>340,00</h5>
+                <p><span>(grilovana piletina, majonez, zelena salata, paradajz)</span></p>
+                <h5>240 din</h5>
                 <aside></aside>
             </article>
         </div>
+
+        <div class="meni-list-item">
+            <h4>Pohovani pileći</h4>
+            <article>
+                <p><span>(pohovana piletina, majonez, zelena salata, paradajz)</span></p>
+                <h5>240 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <h4>Vegetarijanski</h4>
+            <article>
+                <p><span>(jaje, pavlaka, paradajz, rukola)</span></p>
+                <h5>210 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
     </div>
 </section>

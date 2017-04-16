@@ -12,10 +12,10 @@
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/04.jpg"><img src="<%= @site.url %>/images/gallery/04.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/05.jpg"><img src="<%= @site.url %>/images/gallery/05.jpg" alt=""/></a>
             <a class="item image-gallery" href="<%= @site.url %>/images/gallery/06.jpg"><img src="<%= @site.url %>/images/gallery/06.jpg" alt=""/></a>
-            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/01.jpg"><img src="<%= @site.url %>/images/gallery/01.jpg" alt=""/></a>
-            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/05.jpg"><img src="<%= @site.url %>/images/gallery/05.jpg" alt=""/></a>
-            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/02.jpg"><img src="<%= @site.url %>/images/gallery/02.jpg" alt=""/></a>
-            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/03.jpg"><img src="<%= @site.url %>/images/gallery/03.jpg" alt=""/></a>
+            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/07.jpg"><img src="<%= @site.url %>/images/gallery/07.jpg" alt=""/></a>
+            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/08.jpg"><img src="<%= @site.url %>/images/gallery/08.jpg" alt=""/></a>
+            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/09.jpg"><img src="<%= @site.url %>/images/gallery/09.jpg" alt=""/></a>
+            <a class="item image-gallery" href="<%= @site.url %>/images/gallery/10.jpg"><img src="<%= @site.url %>/images/gallery/10.jpg" alt=""/></a>
         </section>
     </div>
 </section>

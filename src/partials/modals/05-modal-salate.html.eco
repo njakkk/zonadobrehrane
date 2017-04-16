@@ -5,71 +5,43 @@
     <div class="meni-modal-title">
         <h1>Obrok salate</h1>
     </div>
-    <div class="meni-modal-txt scrollbar">
-        <div class="meni-list-item">
-            <!-------------------------------------------->
-            <div class="tl">
-                <h3 class="subtitle">Belo meso</h3>
-                <div class="spacer"><span></span></div>
-            </div>
-            <!-------------------------------------------->
+    <div class="meni-modal-txt">
 
-            <h4>Belo klasik</h4>
+        <div class="meni-list-item">
+            <h4>Cezar</h4>
             <article>
-                <p><span>Pileće belo meso na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <p><span>(piletina, slanina, parmezan, čeri paradajz, zelena salata, tost hleb, dresing) </span></p>
+                <h5>430 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Punjeno belo</h4>
+            <h4>Grčka</h4>
             <article>
-                <p><span>Pilće belo meso na žaru punjeno kačkavaljem i šunkom + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <p><span>(paradajz, krastavac, paprika, crveni luk, masline, feta sir, začini)</span></p>
+                <h5>380 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rolovano belo</h4>
+            <h4>Tuna</h4>
             <article>
-                <p><span>Pilće belo meso na žaru rolovano u slaninu + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <p><span>(tunjevina, zelena salata, paradajz, krastavac, jaje, crni luk, masline)</span></p>
+                <h5>450 din</h5>
                 <aside></aside>
             </article>
         </div>
-
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Batak</h3>
-            <div class="spacer"><span></span></div>
-        </div>
-        <!-------------------------------------------->
 
         <div class="meni-list-item">
-            <h4>Pileći batak klasik</h4>
+            <h4>ZONA</h4>
             <article>
-                <p><span>Pileći batak na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <p><span>(komadići pohovane piletine, zelena salata, čeri paradajz, kukuruz, susam, dresing)</span></p>
+                <h5>480 din</h5>
                 <aside></aside>
             </article>
         </div>
 
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Krilca</h3>
-            <div class="spacer"><span></span></div>
-        </div>
-        <!-------------------------------------------->
-
-        <div class="meni-list-item">
-            <h4>Hrskava krilca</h4>
-            <article>
-                <p><span>Pohovana hrskava pileća krilca + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
-                <aside></aside>
-            </article>
-        </div>
     </div>
 </section>

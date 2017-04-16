@@ -5,69 +5,115 @@
     <div class="meni-modal-title">
         <h1>Roštilj</h1>
     </div>
-    <div class="meni-modal-txt scrollbar">
+    <div class="meni-modal-txt">
         <div class="meni-list-item">
-            <!-------------------------------------------->
-            <div class="tl">
-                <h3 class="subtitle">Belo meso</h3>
-                <div class="spacer"><span></span></div>
-            </div>
-            <!-------------------------------------------->
-
-            <h4>Belo klasik</h4>
             <article>
-                <p><span>Pileće belo meso na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <h4><span>Mala pljeskavica 120gr</span></h4>
+                <h5>160 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Punjeno belo</h4>
             <article>
-                <p><span>Pilće belo meso na žaru punjeno kačkavaljem i šunkom + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Velika pljeskavica 200gr</span></h4>
+                <h5>240 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Rolovano belo</h4>
             <article>
-                <p><span>Pilće belo meso na žaru rolovano u slaninu + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Leskovačka pljeskavica 250gr</span></h4>
+                <h5>270 din</h5>
                 <aside></aside>
             </article>
         </div>
 
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Batak</h3>
-            <div class="spacer"><span></span></div>
-        </div>
-        <!-------------------------------------------->
-
         <div class="meni-list-item">
-            <h4>Pileći batak klasik</h4>
             <article>
-                <p><span>Pileći batak na žaru + pomfrit</span></p>
-                <h5>360,00</h5>
+                <h4><span>Punjena pljeskavica 300gr</span></h4>
+                <h5>330 din</h5>
                 <aside></aside>
             </article>
         </div>
 
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Krilca</h3>
-            <div class="spacer"><span></span></div>
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Gurmanska pljeskavica 250gr</span></h4>
+                <h5>300 din</h5>
+                <aside></aside>
+            </article>
         </div>
-        <!-------------------------------------------->
 
         <div class="meni-list-item">
-            <h4>Hrskava krilca</h4>
             <article>
-                <p><span>Pohovana hrskava pileća krilca + prilog (pomfrit, pirinač ili grilovano povrće)</span></p>
-                <h5>360,00</h5>
+                <h4><span>Uštipci 250gr</span></h4>
+                <h5>280 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Ćevapi 5 kom 180gr</span></h4>
+                <h5>210 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Ćevapi 10 kom 360gr</span></h4>
+                <h5>420 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Ćevapi 1kg </span></h4>
+                <h5>850 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Svinjski vrat 200gr</span></h4>
+                <h5>300 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Bela vešalica 200gr</span></h4>
+                <h5>380 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Punjena bela vešalica 350gr</span></h4>
+                <h5>500 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Kobasica 200gr </span></h4>
+                <h5>240 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
+        <div class="meni-list-item">
+            <article>
+                <h4><span>Mešano meso 1kg</span></h4>
+                <h5>950 din</h5>
                 <aside></aside>
             </article>
         </div>

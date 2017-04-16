@@ -5,93 +5,73 @@
     <div class="meni-modal-title">
         <h1>Palačinke</h1>
     </div>
-    <div class="meni-modal-txt scrollbar">
-
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Slatke palačinke</h3>
-            <div class="spacer"><span></span></div>
-        </div>
-        <!-------------------------------------------->
-
+    <div class="meni-modal-txt">
 
         <div class="meni-list-item">
-            <h4>Eurokrem klasik</h4>
             <article>
-                <p><span>Eurokrem & plazma</span></p>
-                <h5>200,00</h5>
+                <h4><span>Palačinka</span></h4>
+                <h5>90 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Nutella klasik</h4>
             <article>
-                <p><span>Nutella & plazma</span></p>
-                <h5>250,00</h5>
+                <h4><span>Palačinka eurokrem</span></h4>
+                <h5>140 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Eurokrem filovana</h4>
             <article>
-                <p><span>Eurokrem, plazma i voće po izboru (banana, malina, višnja)</span></p>
-                <h5>250,00</h5>
+                <h4><span>Palačinka  eurokrem, plazma</span></h4>
+                <h5>150 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Nutella filovana</h4>
             <article>
-                <p><span>Nutella, plazma i voće po izboru (banana, malina, višnja)</span></p>
-                <h5>300,00</h5>
-                <aside></aside>
-            </article>
-        </div>
-
-        <!-------------------------------------------->
-        <div class="tl">
-            <h3 class="subtitle">Slane palačinke</h3>
-            <div class="spacer"><span></span></div>
-        </div>
-        <!-------------------------------------------->
-
-        <div class="meni-list-item">
-            <h4>Pršuta klasik</h4>
-            <article>
-                <p><span>Pršuta, pavlaka, kačkavalj</span></p>
-                <h5>360,00</h5>
+                <h4><span>Palačinka nutela</span></h4>
+                <h5>150 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Pršuta strong</h4>
             <article>
-                <p><span>Pršuta, suvi vrat, pavlaka, kačkavalj, tartar</span></p>
-                <h5>360,00</h5>
+                <h4><span>Palačinka nutela, plazma</span></h4>
+                <h5>160 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Suvi vrat</h4>
             <article>
-                <p><span>Suvi vrat, pavlaka, kačkavalj</span></p>
-                <h5>360,00</h5>
+                <h4><span>Palačinka šećer, orasi</span></h4>
+                <h5>140 din</h5>
                 <aside></aside>
             </article>
         </div>
 
         <div class="meni-list-item">
-            <h4>Kulen</h4>
+            <h4>Palačinka džem</h4>
             <article>
-                <p><span>Kulen, pavlaka, kačkavalj</span></p>
-                <h5>360,00</h5>
+                <p><span>(kajsija, šljiva, jagoda) </span></p>
+                <h5>140 din</h5>
                 <aside></aside>
             </article>
         </div>
+
+        <div class="meni-list-item">
+            <h4>Dodaci</h4>
+            <article>
+                <p><span>(lešnik, badem, orasi, kokos, banana, višnja) </span></p>
+                <h5>30 din</h5>
+                <aside></aside>
+            </article>
+        </div>
+
     </div>
 </section>

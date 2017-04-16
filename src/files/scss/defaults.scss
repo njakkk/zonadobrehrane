@@ -81,6 +81,10 @@ b{
   font-family: $strong;
   font-weight: 300;
   letter-spacing: 0.05em;
+
+  p{
+    font-family: $main-font;
+  }
 }
 
 .spacer{
